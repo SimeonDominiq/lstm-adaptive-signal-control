@@ -1,0 +1,494 @@
+{
+  "low": {
+    "seeds": [
+      50000
+    ],
+    "controllers": {
+      "fixed": {
+        "ratio": 0.9986,
+        "ratio_sd": 0.0,
+        "correlation": 0.9341,
+        "correlation_sd": 0.0,
+        "mae": 0.953,
+        "mae_sd": 0.0,
+        "mean_signed_error": -0.007,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 21.52,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 4262,
+            "true_total": 4268,
+            "ratio": 0.9986,
+            "mae": 0.953,
+            "mean_signed_error": -0.007,
+            "correlation": 0.9341,
+            "mape_nonzero": 21.52
+          }
+        ]
+      },
+      "reactive": {
+        "ratio": 0.9977,
+        "ratio_sd": 0.0,
+        "correlation": 0.9241,
+        "correlation_sd": 0.0,
+        "mae": 1.012,
+        "mae_sd": 0.0,
+        "mean_signed_error": -0.012,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 22.4,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 4258,
+            "true_total": 4268,
+            "ratio": 0.9977,
+            "mae": 1.012,
+            "mean_signed_error": -0.012,
+            "correlation": 0.9241,
+            "mape_nonzero": 22.4
+          }
+        ]
+      },
+      "predictive": {
+        "ratio": 0.9981,
+        "ratio_sd": 0.0,
+        "correlation": 0.9275,
+        "correlation_sd": 0.0,
+        "mae": 0.985,
+        "mae_sd": 0.0,
+        "mean_signed_error": -0.01,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 21.91,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 4260,
+            "true_total": 4268,
+            "ratio": 0.9981,
+            "mae": 0.985,
+            "mean_signed_error": -0.01,
+            "correlation": 0.9275,
+            "mape_nonzero": 21.91
+          }
+        ]
+      }
+    }
+  },
+  "moderate": {
+    "seeds": [
+      51000
+    ],
+    "controllers": {
+      "fixed": {
+        "ratio": 0.9975,
+        "ratio_sd": 0.0,
+        "correlation": 0.9324,
+        "correlation_sd": 0.0,
+        "mae": 1.551,
+        "mae_sd": 0.0,
+        "mean_signed_error": -0.022,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 21.24,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 7164,
+            "true_total": 7182,
+            "ratio": 0.9975,
+            "mae": 1.551,
+            "mean_signed_error": -0.022,
+            "correlation": 0.9324,
+            "mape_nonzero": 21.24
+          }
+        ]
+      },
+      "reactive": {
+        "ratio": 0.9975,
+        "ratio_sd": 0.0,
+        "correlation": 0.9318,
+        "correlation_sd": 0.0,
+        "mae": 1.549,
+        "mae_sd": 0.0,
+        "mean_signed_error": -0.022,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 20.73,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 7164,
+            "true_total": 7182,
+            "ratio": 0.9975,
+            "mae": 1.549,
+            "mean_signed_error": -0.022,
+            "correlation": 0.9318,
+            "mape_nonzero": 20.73
+          }
+        ]
+      },
+      "predictive": {
+        "ratio": 0.9976,
+        "ratio_sd": 0.0,
+        "correlation": 0.9337,
+        "correlation_sd": 0.0,
+        "mae": 1.548,
+        "mae_sd": 0.0,
+        "mean_signed_error": -0.021,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 21.67,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 7165,
+            "true_total": 7182,
+            "ratio": 0.9976,
+            "mae": 1.548,
+            "mean_signed_error": -0.021,
+            "correlation": 0.9337,
+            "mape_nonzero": 21.67
+          }
+        ]
+      }
+    }
+  },
+  "peak": {
+    "seeds": [
+      52000
+    ],
+    "controllers": {
+      "fixed": {
+        "ratio": 0.9675,
+        "ratio_sd": 0.0,
+        "correlation": 0.9088,
+        "correlation_sd": 0.0,
+        "mae": 2.673,
+        "mae_sd": 0.0,
+        "mean_signed_error": -0.408,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 33.24,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 9916,
+            "true_total": 10249,
+            "ratio": 0.9675,
+            "mae": 2.673,
+            "mean_signed_error": -0.408,
+            "correlation": 0.9088,
+            "mape_nonzero": 33.24
+          }
+        ]
+      },
+      "reactive": {
+        "ratio": 0.8787,
+        "ratio_sd": 0.0,
+        "correlation": 0.835,
+        "correlation_sd": 0.0,
+        "mae": 3.273,
+        "mae_sd": 0.0,
+        "mean_signed_error": -1.523,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 35.09,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 9006,
+            "true_total": 10249,
+            "ratio": 0.8787,
+            "mae": 3.273,
+            "mean_signed_error": -1.523,
+            "correlation": 0.835,
+            "mape_nonzero": 35.09
+          }
+        ]
+      },
+      "predictive": {
+        "ratio": 0.9749,
+        "ratio_sd": 0.0,
+        "correlation": 0.909,
+        "correlation_sd": 0.0,
+        "mae": 2.661,
+        "mae_sd": 0.0,
+        "mean_signed_error": -0.315,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 34.45,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 9992,
+            "true_total": 10249,
+            "ratio": 0.9749,
+            "mae": 2.661,
+            "mean_signed_error": -0.315,
+            "correlation": 0.909,
+            "mape_nonzero": 34.45
+          }
+        ]
+      }
+    }
+  },
+  "oversaturated": {
+    "seeds": [
+      53000
+    ],
+    "controllers": {
+      "fixed": {
+        "ratio": 0.8182,
+        "ratio_sd": 0.0,
+        "correlation": 0.911,
+        "correlation_sd": 0.0,
+        "mae": 3.83,
+        "mae_sd": 0.0,
+        "mean_signed_error": -2.888,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 29.53,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 10611,
+            "true_total": 12968,
+            "ratio": 0.8182,
+            "mae": 3.83,
+            "mean_signed_error": -2.888,
+            "correlation": 0.911,
+            "mape_nonzero": 29.53
+          }
+        ]
+      },
+      "reactive": {
+        "ratio": 0.6803,
+        "ratio_sd": 0.0,
+        "correlation": 0.4969,
+        "correlation_sd": 0.0,
+        "mae": 7.297,
+        "mae_sd": 0.0,
+        "mean_signed_error": -5.081,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 48.06,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 8822,
+            "true_total": 12968,
+            "ratio": 0.6803,
+            "mae": 7.297,
+            "mean_signed_error": -5.081,
+            "correlation": 0.4969,
+            "mape_nonzero": 48.06
+          }
+        ]
+      },
+      "predictive": {
+        "ratio": 0.8177,
+        "ratio_sd": 0.0,
+        "correlation": 0.9161,
+        "correlation_sd": 0.0,
+        "mae": 3.806,
+        "mae_sd": 0.0,
+        "mean_signed_error": -2.897,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 29.49,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 10604,
+            "true_total": 12968,
+            "ratio": 0.8177,
+            "mae": 3.806,
+            "mean_signed_error": -2.897,
+            "correlation": 0.9161,
+            "mape_nonzero": 29.49
+          }
+        ]
+      }
+    }
+  },
+  "surge": {
+    "seeds": [
+      54000
+    ],
+    "controllers": {
+      "fixed": {
+        "ratio": 0.9584,
+        "ratio_sd": 0.0,
+        "correlation": 0.8231,
+        "correlation_sd": 0.0,
+        "mae": 2.517,
+        "mae_sd": 0.0,
+        "mean_signed_error": -0.404,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 28.47,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 7602,
+            "true_total": 7932,
+            "ratio": 0.9584,
+            "mae": 2.517,
+            "mean_signed_error": -0.404,
+            "correlation": 0.8231,
+            "mape_nonzero": 28.47
+          }
+        ]
+      },
+      "reactive": {
+        "ratio": 0.9701,
+        "ratio_sd": 0.0,
+        "correlation": 0.7866,
+        "correlation_sd": 0.0,
+        "mae": 2.653,
+        "mae_sd": 0.0,
+        "mean_signed_error": -0.29,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 30.26,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 7695,
+            "true_total": 7932,
+            "ratio": 0.9701,
+            "mae": 2.653,
+            "mean_signed_error": -0.29,
+            "correlation": 0.7866,
+            "mape_nonzero": 30.26
+          }
+        ]
+      },
+      "predictive": {
+        "ratio": 0.9907,
+        "ratio_sd": 0.0,
+        "correlation": 0.824,
+        "correlation_sd": 0.0,
+        "mae": 2.63,
+        "mae_sd": 0.0,
+        "mean_signed_error": -0.091,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 29.2,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 7858,
+            "true_total": 7932,
+            "ratio": 0.9907,
+            "mae": 2.63,
+            "mean_signed_error": -0.091,
+            "correlation": 0.824,
+            "mape_nonzero": 29.2
+          }
+        ]
+      }
+    }
+  },
+  "imbalanced": {
+    "seeds": [
+      55000
+    ],
+    "controllers": {
+      "fixed": {
+        "ratio": 0.9174,
+        "ratio_sd": 0.0,
+        "correlation": 0.9401,
+        "correlation_sd": 0.0,
+        "mae": 2.026,
+        "mae_sd": 0.0,
+        "mean_signed_error": -0.805,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 24.73,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 7301,
+            "true_total": 7958,
+            "ratio": 0.9174,
+            "mae": 2.026,
+            "mean_signed_error": -0.805,
+            "correlation": 0.9401,
+            "mape_nonzero": 24.73
+          }
+        ]
+      },
+      "reactive": {
+        "ratio": 0.9994,
+        "ratio_sd": 0.0,
+        "correlation": 0.9512,
+        "correlation_sd": 0.0,
+        "mae": 1.719,
+        "mae_sd": 0.0,
+        "mean_signed_error": -0.006,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 21.88,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 7953,
+            "true_total": 7958,
+            "ratio": 0.9994,
+            "mae": 1.719,
+            "mean_signed_error": -0.006,
+            "correlation": 0.9512,
+            "mape_nonzero": 21.88
+          }
+        ]
+      },
+      "predictive": {
+        "ratio": 0.9986,
+        "ratio_sd": 0.0,
+        "correlation": 0.9488,
+        "correlation_sd": 0.0,
+        "mae": 1.719,
+        "mae_sd": 0.0,
+        "mean_signed_error": -0.013,
+        "mean_signed_error_sd": 0.0,
+        "mape_nonzero": 22.59,
+        "mape_nonzero_sd": 0.0,
+        "n_seeds": 1,
+        "per_seed": [
+          {
+            "cycles": 102,
+            "detector_total": 7947,
+            "true_total": 7958,
+            "ratio": 0.9986,
+            "mae": 1.719,
+            "mean_signed_error": -0.013,
+            "correlation": 0.9488,
+            "mape_nonzero": 22.59
+          }
+        ]
+      }
+    }
+  }
+}

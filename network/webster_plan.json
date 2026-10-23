@@ -1,0 +1,31 @@
+{
+  "method": "Webster (1958)",
+  "partition": "train",
+  "design_demand_veh_per_h": {
+    "NB_L": 97.44226486478448,
+    "NB_TR": 552.1728342337786,
+    "SB_L": 107.12388289167077,
+    "SB_TR": 607.0353363861342,
+    "EB_L": 95.01545544499412,
+    "EB_TR": 538.4209141883007,
+    "WB_L": 94.4252111358106,
+    "WB_TR": 535.0761964362603
+  },
+  "critical_flow_ratios": {
+    "NS_through_right": 0.33724185354785235,
+    "NS_left": 0.05951326827315043,
+    "EW_through_right": 0.2991227301046115,
+    "EW_left": 0.05278636413610784
+  },
+  "Y": 0.7486642160617222,
+  "lost_time_s": 20,
+  "webster_optimum_cycle_s": 139.25593662617965,
+  "cycle_used_s": 140,
+  "green_times_s": {
+    "NS_through_right": 53,
+    "NS_left": 10,
+    "EW_through_right": 47,
+    "EW_left": 10
+  },
+  "note": "Cycle constrained to 140 s for comparability across controllers."
+}

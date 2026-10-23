@@ -1,0 +1,138 @@
+{
+  "model_dir": "models_broad",
+  "window": 5,
+  "offline_mae": 1.778,
+  "consistency_check": {
+    "forecasts_compared": 5880,
+    "max_difference": 0.0005,
+    "passed": true
+  },
+  "results": {
+    "fixed|low": {
+      "n_seeds": 10,
+      "lstm_mae": 1.8403068788272818,
+      "lstm_sd": 0.04703483299482207,
+      "persistence_mae": 2.2426546391752575,
+      "improvement_over_persistence_pct": 17.94
+    },
+    "fixed|moderate": {
+      "n_seeds": 10,
+      "lstm_mae": 2.3127939401520896,
+      "lstm_sd": 0.06057899533095677,
+      "persistence_mae": 2.970876288659794,
+      "improvement_over_persistence_pct": 22.15
+    },
+    "fixed|peak": {
+      "n_seeds": 10,
+      "lstm_mae": 1.7653540340895506,
+      "lstm_sd": 0.28145347427418455,
+      "persistence_mae": 2.1890463917525773,
+      "improvement_over_persistence_pct": 19.36
+    },
+    "fixed|oversaturated": {
+      "n_seeds": 10,
+      "lstm_mae": 1.4539460028262483,
+      "lstm_sd": 0.29744732341414754,
+      "persistence_mae": 1.5896907216494847,
+      "improvement_over_persistence_pct": 8.54
+    },
+    "fixed|surge": {
+      "n_seeds": 10,
+      "lstm_mae": 2.1301063001616716,
+      "lstm_sd": 0.08483256240600229,
+      "persistence_mae": 2.690077319587629,
+      "improvement_over_persistence_pct": 20.82
+    },
+    "fixed|imbalanced": {
+      "n_seeds": 10,
+      "lstm_mae": 1.648007585753485,
+      "lstm_sd": 0.28225358220419405,
+      "persistence_mae": 2.0940721649484537,
+      "improvement_over_persistence_pct": 21.3
+    },
+    "reactive|low": {
+      "n_seeds": 10,
+      "lstm_mae": 1.8520512742940913,
+      "lstm_sd": 0.044970659917713554,
+      "persistence_mae": 2.22229381443299,
+      "improvement_over_persistence_pct": 16.66
+    },
+    "reactive|moderate": {
+      "n_seeds": 10,
+      "lstm_mae": 2.338137734274274,
+      "lstm_sd": 0.09871368249818736,
+      "persistence_mae": 2.9250000000000003,
+      "improvement_over_persistence_pct": 20.06
+    },
+    "reactive|peak": {
+      "n_seeds": 10,
+      "lstm_mae": 3.0632498793688017,
+      "lstm_sd": 0.3731717258232364,
+      "persistence_mae": 2.640077319587629,
+      "improvement_over_persistence_pct": -16.03
+    },
+    "reactive|oversaturated": {
+      "n_seeds": 10,
+      "lstm_mae": 4.119074071252468,
+      "lstm_sd": 0.8782000020563281,
+      "persistence_mae": 2.604896907216495,
+      "improvement_over_persistence_pct": -58.13
+    },
+    "reactive|surge": {
+      "n_seeds": 10,
+      "lstm_mae": 2.4732148404895646,
+      "lstm_sd": 0.1691115639426411,
+      "persistence_mae": 2.7262886597938145,
+      "improvement_over_persistence_pct": 9.28
+    },
+    "reactive|imbalanced": {
+      "n_seeds": 10,
+      "lstm_mae": 2.2268411135243382,
+      "lstm_sd": 0.18091866931193776,
+      "persistence_mae": 2.631572164948454,
+      "improvement_over_persistence_pct": 15.38
+    },
+    "predictive|low": {
+      "n_seeds": 10,
+      "lstm_mae": 1.8418691927471111,
+      "lstm_sd": 0.04212599419567786,
+      "persistence_mae": 2.2430412371134016,
+      "improvement_over_persistence_pct": 17.89
+    },
+    "predictive|moderate": {
+      "n_seeds": 10,
+      "lstm_mae": 2.3041527595409415,
+      "lstm_sd": 0.06783458607935242,
+      "persistence_mae": 2.942139175257732,
+      "improvement_over_persistence_pct": 21.68
+    },
+    "predictive|peak": {
+      "n_seeds": 10,
+      "lstm_mae": 1.832036037297593,
+      "lstm_sd": 0.2874664748492725,
+      "persistence_mae": 2.292783505154639,
+      "improvement_over_persistence_pct": 20.1
+    },
+    "predictive|oversaturated": {
+      "n_seeds": 10,
+      "lstm_mae": 1.5345513268537128,
+      "lstm_sd": 0.33470867368245705,
+      "persistence_mae": 1.683118556701031,
+      "improvement_over_persistence_pct": 8.83
+    },
+    "predictive|surge": {
+      "n_seeds": 10,
+      "lstm_mae": 2.218054014536523,
+      "lstm_sd": 0.11408046140699585,
+      "persistence_mae": 2.641237113402062,
+      "improvement_over_persistence_pct": 16.02
+    },
+    "predictive|imbalanced": {
+      "n_seeds": 10,
+      "lstm_mae": 2.1963816898692516,
+      "lstm_sd": 0.09562175819140047,
+      "persistence_mae": 2.6051546391752574,
+      "improvement_over_persistence_pct": 15.69
+    }
+  }
+}

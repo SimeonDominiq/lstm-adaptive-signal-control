@@ -1,0 +1,1631 @@
+{
+  "capacity_veh_per_h": 3085.7142857142853,
+  "cycles_per_run": 102,
+  "seeds_per_scenario": 20,
+  "scenarios": {
+    "low": {
+      "spec": {
+        "level": 0.35,
+        "shape": "flat"
+      },
+      "n_runs": 20,
+      "mean_vehicles": 4258.0,
+      "runs": [
+        {
+          "route_file": "low/low_s50000.rou.xml",
+          "seed": 50000,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.13265765859409254,
+            "through": 0.727254789894356,
+            "right": 0.1400875515115515
+          },
+          "n_vehicles": 4268,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50001.rou.xml",
+          "seed": 50001,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.1711892541260713,
+            "through": 0.7022737961821337,
+            "right": 0.12653694969179494
+          },
+          "n_vehicles": 4245,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50002.rou.xml",
+          "seed": 50002,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.10429400923584757,
+            "through": 0.7193945861477433,
+            "right": 0.17631140461640912
+          },
+          "n_vehicles": 4255,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50003.rou.xml",
+          "seed": 50003,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.15824612365513993,
+            "through": 0.7162059920717339,
+            "right": 0.1255478842731263
+          },
+          "n_vehicles": 4352,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50004.rou.xml",
+          "seed": 50004,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.13241808426714974,
+            "through": 0.766570465170365,
+            "right": 0.10101145056248528
+          },
+          "n_vehicles": 4330,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50005.rou.xml",
+          "seed": 50005,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.14971262626276738,
+            "through": 0.6956076680162148,
+            "right": 0.15467970572101786
+          },
+          "n_vehicles": 4312,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50006.rou.xml",
+          "seed": 50006,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.17376729156747928,
+            "through": 0.6955619931224197,
+            "right": 0.13067071531010102
+          },
+          "n_vehicles": 4276,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50007.rou.xml",
+          "seed": 50007,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.15398243181562493,
+            "through": 0.6535731289113317,
+            "right": 0.19244443927304344
+          },
+          "n_vehicles": 4179,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50008.rou.xml",
+          "seed": 50008,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.13332749260412421,
+            "through": 0.6878408720102059,
+            "right": 0.17883163538566982
+          },
+          "n_vehicles": 4254,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50009.rou.xml",
+          "seed": 50009,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.1423143309754391,
+            "through": 0.665429406775737,
+            "right": 0.19225626224882383
+          },
+          "n_vehicles": 4205,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50010.rou.xml",
+          "seed": 50010,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.16862792884612182,
+            "through": 0.6534919782142141,
+            "right": 0.17788009293966406
+          },
+          "n_vehicles": 4204,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50011.rou.xml",
+          "seed": 50011,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.11970298035335408,
+            "through": 0.7670118558021748,
+            "right": 0.11328516384447113
+          },
+          "n_vehicles": 4325,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50012.rou.xml",
+          "seed": 50012,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.14933827612556777,
+            "through": 0.6692220229455773,
+            "right": 0.18143970092885495
+          },
+          "n_vehicles": 4201,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50013.rou.xml",
+          "seed": 50013,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.11495152926689248,
+            "through": 0.6994916171568317,
+            "right": 0.18555685357627583
+          },
+          "n_vehicles": 4129,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50014.rou.xml",
+          "seed": 50014,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.17384649710193745,
+            "through": 0.7014442507375386,
+            "right": 0.12470925216052396
+          },
+          "n_vehicles": 4262,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50015.rou.xml",
+          "seed": 50015,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.18192936712196428,
+            "through": 0.7018269791102463,
+            "right": 0.1162436537677894
+          },
+          "n_vehicles": 4217,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50016.rou.xml",
+          "seed": 50016,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.12339147202552997,
+            "through": 0.6859623179465356,
+            "right": 0.1906462100279344
+          },
+          "n_vehicles": 4296,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50017.rou.xml",
+          "seed": 50017,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.15002804263383054,
+            "through": 0.7219206363323055,
+            "right": 0.12805132103386396
+          },
+          "n_vehicles": 4367,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50018.rou.xml",
+          "seed": 50018,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.1853595367445967,
+            "through": 0.6574814209953622,
+            "right": 0.1571590422600411
+          },
+          "n_vehicles": 4189,
+          "level": 0.35,
+          "shape": "flat"
+        },
+        {
+          "route_file": "low/low_s50019.rou.xml",
+          "seed": 50019,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.10700542887554326,
+            "through": 0.750925399795155,
+            "right": 0.1420691713293017
+          },
+          "n_vehicles": 4294,
+          "level": 0.35,
+          "shape": "flat"
+        }
+      ]
+    },
+    "moderate": {
+      "spec": {
+        "level": 0.6,
+        "shape": "flat"
+      },
+      "n_runs": 20,
+      "mean_vehicles": 7326.9,
+      "runs": [
+        {
+          "route_file": "moderate/moderate_s51000.rou.xml",
+          "seed": 51000,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.15474842323912,
+            "through": 0.7398871027972909,
+            "right": 0.10536447396358911
+          },
+          "n_vehicles": 7182,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51001.rou.xml",
+          "seed": 51001,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.1294846789043597,
+            "through": 0.7639086298402532,
+            "right": 0.10660669125538716
+          },
+          "n_vehicles": 7316,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51002.rou.xml",
+          "seed": 51002,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.12149658980131624,
+            "through": 0.7206131248875647,
+            "right": 0.1578902853111191
+          },
+          "n_vehicles": 7393,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51003.rou.xml",
+          "seed": 51003,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.14171334984248551,
+            "through": 0.6988381737578858,
+            "right": 0.15944847639962864
+          },
+          "n_vehicles": 7092,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51004.rou.xml",
+          "seed": 51004,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.1787202107613095,
+            "through": 0.7079911677493488,
+            "right": 0.11328862148934174
+          },
+          "n_vehicles": 7555,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51005.rou.xml",
+          "seed": 51005,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.19469870253488472,
+            "through": 0.7036803407666958,
+            "right": 0.10162095669841946
+          },
+          "n_vehicles": 7285,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51006.rou.xml",
+          "seed": 51006,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.15605982227062581,
+            "through": 0.6774964104492709,
+            "right": 0.1664437672801033
+          },
+          "n_vehicles": 7249,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51007.rou.xml",
+          "seed": 51007,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.1483763972802414,
+            "through": 0.6842469540492041,
+            "right": 0.16737664867055446
+          },
+          "n_vehicles": 7294,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51008.rou.xml",
+          "seed": 51008,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.12253322675375561,
+            "through": 0.696891684419211,
+            "right": 0.18057508882703346
+          },
+          "n_vehicles": 7464,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51009.rou.xml",
+          "seed": 51009,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.14631767714571564,
+            "through": 0.7281227726462767,
+            "right": 0.12555955020800766
+          },
+          "n_vehicles": 7355,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51010.rou.xml",
+          "seed": 51010,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.17407968517507105,
+            "through": 0.6565356993841979,
+            "right": 0.16938461544073116
+          },
+          "n_vehicles": 7277,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51011.rou.xml",
+          "seed": 51011,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.156631659272792,
+            "through": 0.6933752013459604,
+            "right": 0.14999313938124756
+          },
+          "n_vehicles": 7370,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51012.rou.xml",
+          "seed": 51012,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.19090154652969785,
+            "through": 0.6344282883460148,
+            "right": 0.17467016512428737
+          },
+          "n_vehicles": 7370,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51013.rou.xml",
+          "seed": 51013,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.1357066540366661,
+            "through": 0.6660224212728661,
+            "right": 0.19827092469046784
+          },
+          "n_vehicles": 7427,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51014.rou.xml",
+          "seed": 51014,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.19565106737139468,
+            "through": 0.6945246083417445,
+            "right": 0.10982432428686079
+          },
+          "n_vehicles": 7252,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51015.rou.xml",
+          "seed": 51015,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.18169493955208127,
+            "through": 0.6908812558481261,
+            "right": 0.12742380459979263
+          },
+          "n_vehicles": 7416,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51016.rou.xml",
+          "seed": 51016,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.18695826344958352,
+            "through": 0.6832414005509352,
+            "right": 0.12980033599948126
+          },
+          "n_vehicles": 7346,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51017.rou.xml",
+          "seed": 51017,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.14630676971979803,
+            "through": 0.7366371385011016,
+            "right": 0.11705609177910035
+          },
+          "n_vehicles": 7186,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51018.rou.xml",
+          "seed": 51018,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.19634465900376682,
+            "through": 0.6597680604566845,
+            "right": 0.14388728053954863
+          },
+          "n_vehicles": 7369,
+          "level": 0.6,
+          "shape": "flat"
+        },
+        {
+          "route_file": "moderate/moderate_s51019.rou.xml",
+          "seed": 51019,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.11495226662579443,
+            "through": 0.704239975540274,
+            "right": 0.18080775783393171
+          },
+          "n_vehicles": 7341,
+          "level": 0.6,
+          "shape": "flat"
+        }
+      ]
+    },
+    "peak": {
+      "spec": {
+        "level": 0.85,
+        "shape": "flat"
+      },
+      "n_runs": 20,
+      "mean_vehicles": 10451.0,
+      "runs": [
+        {
+          "route_file": "peak/peak_s52000.rou.xml",
+          "seed": 52000,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.16987105482718584,
+            "through": 0.6775432928456014,
+            "right": 0.15258565232721277
+          },
+          "n_vehicles": 10249,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52001.rou.xml",
+          "seed": 52001,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.15044533244928132,
+            "through": 0.707428747637952,
+            "right": 0.14212591991276655
+          },
+          "n_vehicles": 10516,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52002.rou.xml",
+          "seed": 52002,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.18460801789082135,
+            "through": 0.6997215806047135,
+            "right": 0.11567040150446514
+          },
+          "n_vehicles": 10436,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52003.rou.xml",
+          "seed": 52003,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.1265819627119763,
+            "through": 0.7288860809735954,
+            "right": 0.14453195631442828
+          },
+          "n_vehicles": 10447,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52004.rou.xml",
+          "seed": 52004,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.11828433035092997,
+            "through": 0.7040338005404736,
+            "right": 0.17768186910859646
+          },
+          "n_vehicles": 10460,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52005.rou.xml",
+          "seed": 52005,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.1098431012125019,
+            "through": 0.7602760669150206,
+            "right": 0.1298808318724776
+          },
+          "n_vehicles": 10503,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52006.rou.xml",
+          "seed": 52006,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.15102291268047713,
+            "through": 0.6852003667027385,
+            "right": 0.16377672061678425
+          },
+          "n_vehicles": 10410,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52007.rou.xml",
+          "seed": 52007,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.16315700007252693,
+            "through": 0.6808036152289557,
+            "right": 0.1560393846985174
+          },
+          "n_vehicles": 10507,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52008.rou.xml",
+          "seed": 52008,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.126403483685768,
+            "through": 0.7097753459732088,
+            "right": 0.16382117034102311
+          },
+          "n_vehicles": 10702,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52009.rou.xml",
+          "seed": 52009,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.12449121586601766,
+            "through": 0.6987216574419365,
+            "right": 0.17678712669204585
+          },
+          "n_vehicles": 10389,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52010.rou.xml",
+          "seed": 52010,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.1571096690639021,
+            "through": 0.7081223720705714,
+            "right": 0.13476795886552648
+          },
+          "n_vehicles": 10489,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52011.rou.xml",
+          "seed": 52011,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.10377472945057482,
+            "through": 0.718914333081036,
+            "right": 0.1773109374683891
+          },
+          "n_vehicles": 10465,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52012.rou.xml",
+          "seed": 52012,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.1989461448738715,
+            "through": 0.6085559173740437,
+            "right": 0.19249793775208482
+          },
+          "n_vehicles": 10320,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52013.rou.xml",
+          "seed": 52013,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.11692450964945182,
+            "through": 0.7043521504874559,
+            "right": 0.17872333986309225
+          },
+          "n_vehicles": 10477,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52014.rou.xml",
+          "seed": 52014,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.1498491402617157,
+            "through": 0.7288555481000354,
+            "right": 0.12129531163824894
+          },
+          "n_vehicles": 10476,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52015.rou.xml",
+          "seed": 52015,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.16327867916354316,
+            "through": 0.7001034150898187,
+            "right": 0.13661790574663815
+          },
+          "n_vehicles": 10402,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52016.rou.xml",
+          "seed": 52016,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.1799459005794066,
+            "through": 0.6376410579160712,
+            "right": 0.18241304150452214
+          },
+          "n_vehicles": 10547,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52017.rou.xml",
+          "seed": 52017,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.16474143773908184,
+            "through": 0.6448156001428795,
+            "right": 0.19044296211803852
+          },
+          "n_vehicles": 10581,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52018.rou.xml",
+          "seed": 52018,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.10439502991227564,
+            "through": 0.7080499945023784,
+            "right": 0.1875549755853459
+          },
+          "n_vehicles": 10223,
+          "level": 0.85,
+          "shape": "flat"
+        },
+        {
+          "route_file": "peak/peak_s52019.rou.xml",
+          "seed": 52019,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.16855737978629487,
+            "through": 0.6545399187172998,
+            "right": 0.1769027014964053
+          },
+          "n_vehicles": 10422,
+          "level": 0.85,
+          "shape": "flat"
+        }
+      ]
+    },
+    "oversaturated": {
+      "spec": {
+        "level": 1.05,
+        "shape": "flat"
+      },
+      "n_runs": 20,
+      "mean_vehicles": 12815.4,
+      "runs": [
+        {
+          "route_file": "oversaturated/oversaturated_s53000.rou.xml",
+          "seed": 53000,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.1937169268722545,
+            "through": 0.6601284216870836,
+            "right": 0.1461546514406619
+          },
+          "n_vehicles": 12968,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53001.rou.xml",
+          "seed": 53001,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.19586693845184394,
+            "through": 0.6722005862290739,
+            "right": 0.13193247531908223
+          },
+          "n_vehicles": 13043,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53002.rou.xml",
+          "seed": 53002,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.17671681345112622,
+            "through": 0.6449317975844188,
+            "right": 0.17835138896445504
+          },
+          "n_vehicles": 12779,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53003.rou.xml",
+          "seed": 53003,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.1545447921441413,
+            "through": 0.7046684966538663,
+            "right": 0.14078671120199235
+          },
+          "n_vehicles": 12754,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53004.rou.xml",
+          "seed": 53004,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.13228220832979584,
+            "through": 0.7280934612151692,
+            "right": 0.13962433045503497
+          },
+          "n_vehicles": 12880,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53005.rou.xml",
+          "seed": 53005,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.1113829939517469,
+            "through": 0.7741135400152669,
+            "right": 0.11450346603298624
+          },
+          "n_vehicles": 12505,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53006.rou.xml",
+          "seed": 53006,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.13941247345647084,
+            "through": 0.6813179221795433,
+            "right": 0.1792696043639858
+          },
+          "n_vehicles": 12813,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53007.rou.xml",
+          "seed": 53007,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.10379322075143135,
+            "through": 0.7586022018940431,
+            "right": 0.13760457735452544
+          },
+          "n_vehicles": 12809,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53008.rou.xml",
+          "seed": 53008,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.19923627062018945,
+            "through": 0.6055352694632004,
+            "right": 0.19522845991661014
+          },
+          "n_vehicles": 12819,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53009.rou.xml",
+          "seed": 53009,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.12226294540128213,
+            "through": 0.6865239586386535,
+            "right": 0.19121309596006444
+          },
+          "n_vehicles": 12720,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53010.rou.xml",
+          "seed": 53010,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.15815141268350905,
+            "through": 0.6589620110852938,
+            "right": 0.18288657623119714
+          },
+          "n_vehicles": 12840,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53011.rou.xml",
+          "seed": 53011,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.15778509820342576,
+            "through": 0.6713102146725474,
+            "right": 0.17090468712402687
+          },
+          "n_vehicles": 12778,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53012.rou.xml",
+          "seed": 53012,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.17682657133365526,
+            "through": 0.6383289589777863,
+            "right": 0.18484446968855847
+          },
+          "n_vehicles": 12765,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53013.rou.xml",
+          "seed": 53013,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.19656237876382948,
+            "through": 0.6913629043175453,
+            "right": 0.11207471691862518
+          },
+          "n_vehicles": 12906,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53014.rou.xml",
+          "seed": 53014,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.10887664050505513,
+            "through": 0.7222425915692267,
+            "right": 0.16888076792571816
+          },
+          "n_vehicles": 12741,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53015.rou.xml",
+          "seed": 53015,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.19989522478525867,
+            "through": 0.6857770250985817,
+            "right": 0.11432775011615964
+          },
+          "n_vehicles": 12919,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53016.rou.xml",
+          "seed": 53016,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.18119812636132082,
+            "through": 0.6562093292681248,
+            "right": 0.16259254437055434
+          },
+          "n_vehicles": 12924,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53017.rou.xml",
+          "seed": 53017,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.14336791274801383,
+            "through": 0.7159308719051126,
+            "right": 0.14070121534687355
+          },
+          "n_vehicles": 12847,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53018.rou.xml",
+          "seed": 53018,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.156537960283549,
+            "through": 0.6675750492296207,
+            "right": 0.1758869904868302
+          },
+          "n_vehicles": 12616,
+          "level": 1.05,
+          "shape": "flat"
+        },
+        {
+          "route_file": "oversaturated/oversaturated_s53019.rou.xml",
+          "seed": 53019,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.18325873725426964,
+            "through": 0.6940959899547968,
+            "right": 0.1226452727909335
+          },
+          "n_vehicles": 12881,
+          "level": 1.05,
+          "shape": "flat"
+        }
+      ]
+    },
+    "surge": {
+      "spec": {
+        "level": 0.6,
+        "shape": "surge",
+        "surge_level": 1.0,
+        "surge_start_min": 90,
+        "surge_end_min": 130
+      },
+      "n_runs": 20,
+      "mean_vehicles": 8169.4,
+      "runs": [
+        {
+          "route_file": "surge/surge_s54000.rou.xml",
+          "seed": 54000,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.10475419273477443,
+            "through": 0.747023720657913,
+            "right": 0.14822208660731265
+          },
+          "n_vehicles": 7932,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54001.rou.xml",
+          "seed": 54001,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.1371235186124778,
+            "through": 0.7163069673444752,
+            "right": 0.1465695140430471
+          },
+          "n_vehicles": 8312,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54002.rou.xml",
+          "seed": 54002,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.1216422787953781,
+            "through": 0.7547772311690585,
+            "right": 0.1235804900355634
+          },
+          "n_vehicles": 8109,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54003.rou.xml",
+          "seed": 54003,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.10273099452086382,
+            "through": 0.710680204503708,
+            "right": 0.1865888009754282
+          },
+          "n_vehicles": 8253,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54004.rou.xml",
+          "seed": 54004,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.15677490748951067,
+            "through": 0.6833824748850781,
+            "right": 0.15984261762541135
+          },
+          "n_vehicles": 8007,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54005.rou.xml",
+          "seed": 54005,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.14634275825250892,
+            "through": 0.7083034266246466,
+            "right": 0.14535381512284434
+          },
+          "n_vehicles": 8151,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54006.rou.xml",
+          "seed": 54006,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.19155848880657356,
+            "through": 0.6886745975649116,
+            "right": 0.11976691362851483
+          },
+          "n_vehicles": 8245,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54007.rou.xml",
+          "seed": 54007,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.15578518662858556,
+            "through": 0.7352621788974342,
+            "right": 0.10895263447398026
+          },
+          "n_vehicles": 8160,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54008.rou.xml",
+          "seed": 54008,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.15433587367867643,
+            "through": 0.6792457368561875,
+            "right": 0.16641838946513607
+          },
+          "n_vehicles": 8299,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54009.rou.xml",
+          "seed": 54009,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.15917836893141712,
+            "through": 0.703260432400783,
+            "right": 0.13756119866779987
+          },
+          "n_vehicles": 8165,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54010.rou.xml",
+          "seed": 54010,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.12174647824503769,
+            "through": 0.7469863745306144,
+            "right": 0.1312671472243479
+          },
+          "n_vehicles": 8246,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54011.rou.xml",
+          "seed": 54011,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.19613465278166742,
+            "through": 0.6078175721887097,
+            "right": 0.19604777502962292
+          },
+          "n_vehicles": 8020,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54012.rou.xml",
+          "seed": 54012,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.16507891338355982,
+            "through": 0.6664711975040112,
+            "right": 0.16844988911242897
+          },
+          "n_vehicles": 8182,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54013.rou.xml",
+          "seed": 54013,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.11859683029152489,
+            "through": 0.7230052317487474,
+            "right": 0.1583979379597277
+          },
+          "n_vehicles": 8176,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54014.rou.xml",
+          "seed": 54014,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.1455285260281626,
+            "through": 0.6895037001177524,
+            "right": 0.16496777385408506
+          },
+          "n_vehicles": 8087,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54015.rou.xml",
+          "seed": 54015,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.1177720014905055,
+            "through": 0.7498665664155308,
+            "right": 0.13236143209396367
+          },
+          "n_vehicles": 8162,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54016.rou.xml",
+          "seed": 54016,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.10202844792808699,
+            "through": 0.7133718741570106,
+            "right": 0.18459967791490237
+          },
+          "n_vehicles": 8057,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54017.rou.xml",
+          "seed": 54017,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.11531499114585264,
+            "through": 0.7048660352236331,
+            "right": 0.17981897363051427
+          },
+          "n_vehicles": 8093,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54018.rou.xml",
+          "seed": 54018,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.1019333297983612,
+            "through": 0.7902098269871484,
+            "right": 0.10785684321449036
+          },
+          "n_vehicles": 8292,
+          "level": 0.6,
+          "shape": "surge"
+        },
+        {
+          "route_file": "surge/surge_s54019.rou.xml",
+          "seed": 54019,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.1916563109226705,
+            "through": 0.6956601951861644,
+            "right": 0.1126834938911651
+          },
+          "n_vehicles": 8440,
+          "level": 0.6,
+          "shape": "surge"
+        }
+      ]
+    },
+    "imbalanced": {
+      "spec": {
+        "level": 0.65,
+        "shape": "imbalanced",
+        "major_share": 0.72
+      },
+      "n_runs": 20,
+      "mean_vehicles": 7962.1,
+      "runs": [
+        {
+          "route_file": "imbalanced/imbalanced_s55000.rou.xml",
+          "seed": 55000,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.16837405560047713,
+            "through": 0.7185042494229046,
+            "right": 0.11312169497661834
+          },
+          "n_vehicles": 7958,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55001.rou.xml",
+          "seed": 55001,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.11070647135255936,
+            "through": 0.7045841599032843,
+            "right": 0.18470936874415636
+          },
+          "n_vehicles": 8117,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55002.rou.xml",
+          "seed": 55002,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.17393500361566938,
+            "through": 0.7254499956664939,
+            "right": 0.10061500071783672
+          },
+          "n_vehicles": 7952,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55003.rou.xml",
+          "seed": 55003,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.19274213414020278,
+            "through": 0.7029960240602493,
+            "right": 0.10426184179954784
+          },
+          "n_vehicles": 7897,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55004.rou.xml",
+          "seed": 55004,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.1852469317024435,
+            "through": 0.6549312806299539,
+            "right": 0.15982178766760272
+          },
+          "n_vehicles": 8071,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55005.rou.xml",
+          "seed": 55005,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.1862114468388774,
+            "through": 0.6387592583512944,
+            "right": 0.17502929480982818
+          },
+          "n_vehicles": 7893,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55006.rou.xml",
+          "seed": 55006,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.1494384485202974,
+            "through": 0.7214153551200306,
+            "right": 0.12914619635967192
+          },
+          "n_vehicles": 8022,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55007.rou.xml",
+          "seed": 55007,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.10831880022283168,
+            "through": 0.752084752571305,
+            "right": 0.13959644720586328
+          },
+          "n_vehicles": 7922,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55008.rou.xml",
+          "seed": 55008,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.11286222551241942,
+            "through": 0.7727877758761722,
+            "right": 0.11434999861140839
+          },
+          "n_vehicles": 8042,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55009.rou.xml",
+          "seed": 55009,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.13057146087159227,
+            "through": 0.7367077993386839,
+            "right": 0.13272073978972393
+          },
+          "n_vehicles": 7884,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55010.rou.xml",
+          "seed": 55010,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.12746907636886787,
+            "through": 0.7040250247407107,
+            "right": 0.1685058988904215
+          },
+          "n_vehicles": 8074,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55011.rou.xml",
+          "seed": 55011,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.1406729946068213,
+            "through": 0.7238288182341641,
+            "right": 0.13549818715901463
+          },
+          "n_vehicles": 8039,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55012.rou.xml",
+          "seed": 55012,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.15070448277106913,
+            "through": 0.6699697548392913,
+            "right": 0.1793257623896396
+          },
+          "n_vehicles": 7866,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55013.rou.xml",
+          "seed": 55013,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.13405613667237729,
+            "through": 0.7012300496949542,
+            "right": 0.16471381363266863
+          },
+          "n_vehicles": 7977,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55014.rou.xml",
+          "seed": 55014,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.16727745591676502,
+            "through": 0.6683839287414071,
+            "right": 0.16433861534182792
+          },
+          "n_vehicles": 7918,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55015.rou.xml",
+          "seed": 55015,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.10746537051922617,
+            "through": 0.7582678406282103,
+            "right": 0.13426678885256363
+          },
+          "n_vehicles": 8077,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55016.rou.xml",
+          "seed": 55016,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.16188160556722658,
+            "through": 0.6521169251106846,
+            "right": 0.18600146932208889
+          },
+          "n_vehicles": 8036,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55017.rou.xml",
+          "seed": 55017,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.14955262692516214,
+            "through": 0.708481209255408,
+            "right": 0.1419661638194299
+          },
+          "n_vehicles": 7934,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55018.rou.xml",
+          "seed": 55018,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.16272223294671623,
+            "through": 0.7166296992885666,
+            "right": 0.1206480677647173
+          },
+          "n_vehicles": 7679,
+          "level": 0.65,
+          "shape": "imbalanced"
+        },
+        {
+          "route_file": "imbalanced/imbalanced_s55019.rou.xml",
+          "seed": 55019,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.10640109993415751,
+            "through": 0.7495452072474991,
+            "right": 0.14405369281834343
+          },
+          "n_vehicles": 7883,
+          "level": 0.65,
+          "shape": "imbalanced"
+        }
+      ]
+    }
+  }
+}

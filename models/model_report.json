@@ -1,0 +1,113 @@
+{
+  "window_selected": 5,
+  "window_search": {
+    "5": {
+      "val": {
+        "MAE": 1.9089,
+        "RMSE": 2.5895,
+        "MAPE": 34.91,
+        "MAPE_coverage_pct": 94.2
+      },
+      "epochs": 28
+    },
+    "10": {
+      "val": {
+        "MAE": 1.9276,
+        "RMSE": 2.6191,
+        "MAPE": 34.54,
+        "MAPE_coverage_pct": 94.6
+      },
+      "epochs": 28
+    },
+    "15": {
+      "val": {
+        "MAE": 1.943,
+        "RMSE": 2.6211,
+        "MAPE": 34.35,
+        "MAPE_coverage_pct": 95.0
+      },
+      "epochs": 23
+    }
+  },
+  "scaler": {
+    "mean": [
+      2.590721607208252,
+      14.633333206176758,
+      2.74725079536438,
+      15.65051555633545,
+      2.8395187854766846,
+      14.24106502532959,
+      2.6604812145233154,
+      14.176804542541504
+    ],
+    "std": [
+      1.6163525581359863,
+      6.3572001457214355,
+      1.6579097509384155,
+      6.542109489440918,
+      1.8608944416046143,
+      5.570150375366211,
+      1.7327858209609985,
+      5.732629299163818
+    ]
+  },
+  "test_metrics": {
+    "LSTM": {
+      "MAE": 1.8905,
+      "RMSE": 2.6304,
+      "MAPE": 33.1,
+      "MAPE_coverage_pct": 95.6
+    },
+    "Feed-forward": {
+      "MAE": 1.9871,
+      "RMSE": 2.7529,
+      "MAPE": 34.54,
+      "MAPE_coverage_pct": 95.6
+    },
+    "Seasonal mean": {
+      "MAE": 2.3249,
+      "RMSE": 3.2873,
+      "MAPE": 38.19,
+      "MAPE_coverage_pct": 95.6
+    },
+    "Persistence": {
+      "MAE": 2.3375,
+      "RMSE": 3.3279,
+      "MAPE": 42.59,
+      "MAPE_coverage_pct": 95.6
+    }
+  },
+  "improvement_over_baselines_pct": {
+    "Persistence": 19.12,
+    "Seasonal mean": 18.68,
+    "Feed-forward": 4.86
+  },
+  "accepted": true,
+  "per_movement_mae_lstm": {
+    "NB_L": 1.002,
+    "NB_TR": 2.482,
+    "SB_L": 1.123,
+    "SB_TR": 2.781,
+    "EB_L": 1.126,
+    "EB_TR": 2.74,
+    "WB_L": 1.09,
+    "WB_TR": 2.781
+  },
+  "epochs_trained": 28,
+  "n_train_sequences": 1164,
+  "n_val_sequences": 582,
+  "n_test_sequences": 776,
+  "seed_stability": null,
+  "val_bias": [
+    0.23956,
+    0.11037,
+    -0.02587,
+    0.01164,
+    0.27054,
+    -0.00798,
+    0.01661,
+    -0.22682
+  ],
+  "val_bias_note": "Per-movement mean of prediction minus actual, measured on the validation partition. Available for calibration; subtracting it removes the systematic component of the error.",
+  "note": "Scaler fitted on training inputs only. Sequences never cross a run boundary. Window chosen on validation. Test evaluated once."
+}

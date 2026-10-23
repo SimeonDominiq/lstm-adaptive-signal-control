@@ -1,0 +1,136 @@
+{
+  "window_selected": 5,
+  "window_search": {
+    "5": {
+      "val": {
+        "MAE": 1.7668,
+        "RMSE": 2.461,
+        "MAPE": 34.1,
+        "MAPE_coverage_pct": 92.8
+      },
+      "epochs": 32
+    },
+    "10": {
+      "val": {
+        "MAE": 1.7904,
+        "RMSE": 2.4957,
+        "MAPE": 33.4,
+        "MAPE_coverage_pct": 93.3
+      },
+      "epochs": 26
+    },
+    "15": {
+      "val": {
+        "MAE": 1.789,
+        "RMSE": 2.5005,
+        "MAPE": 33.01,
+        "MAPE_coverage_pct": 93.8
+      },
+      "epochs": 22
+    }
+  },
+  "scaler": {
+    "mean": [
+      2.667182207107544,
+      15.216322898864746,
+      2.7594501972198486,
+      15.723367691040039,
+      2.5131442546844482,
+      12.916065216064453,
+      2.3929553031921387,
+      12.878608703613281
+    ],
+    "std": [
+      1.644518494606018,
+      6.9884748458862305,
+      1.6453487873077393,
+      7.03427791595459,
+      1.822914481163025,
+      6.428013324737549,
+      1.7398861646652222,
+      6.460810661315918
+    ]
+  },
+  "test_metrics": {
+    "LSTM": {
+      "MAE": 1.7779,
+      "RMSE": 2.4831,
+      "MAPE": 33.14,
+      "MAPE_coverage_pct": 93.3
+    },
+    "Feed-forward": {
+      "MAE": 1.8579,
+      "RMSE": 2.5892,
+      "MAPE": 33.9,
+      "MAPE_coverage_pct": 93.3
+    },
+    "Seasonal mean": {
+      "MAE": 2.8196,
+      "RMSE": 3.963,
+      "MAPE": 51.47,
+      "MAPE_coverage_pct": 93.3
+    },
+    "Persistence": {
+      "MAE": 2.1793,
+      "RMSE": 3.1139,
+      "MAPE": 42.79,
+      "MAPE_coverage_pct": 93.3
+    }
+  },
+  "improvement_over_baselines_pct": {
+    "Persistence": 18.42,
+    "Seasonal mean": 36.94,
+    "Feed-forward": 4.31
+  },
+  "accepted": true,
+  "per_movement_mae_lstm": {
+    "NB_L": 1.011,
+    "NB_TR": 2.462,
+    "SB_L": 1.073,
+    "SB_TR": 2.591,
+    "EB_L": 1.024,
+    "EB_TR": 2.478,
+    "WB_L": 1.014,
+    "WB_TR": 2.57
+  },
+  "epochs_trained": 32,
+  "n_train_sequences": 2328,
+  "n_val_sequences": 1164,
+  "n_test_sequences": 1358,
+  "seed_stability": {
+    "seeds": [
+      7,
+      107,
+      207
+    ],
+    "lstm_mae": [
+      1.7779,
+      1.7773,
+      1.7728
+    ],
+    "mlp_mae": [
+      1.8579,
+      1.8342,
+      1.8242
+    ],
+    "lstm_mean": 1.776,
+    "lstm_sd": 0.0028,
+    "mlp_mean": 1.8388,
+    "mlp_sd": 0.0173,
+    "lstm_wins": 3,
+    "n_seeds": 3,
+    "mean_improvement_pct": 3.41
+  },
+  "val_bias": [
+    0.01516,
+    0.18866,
+    -0.05803,
+    0.16926,
+    0.17311,
+    0.1161,
+    -0.01363,
+    -0.02389
+  ],
+  "val_bias_note": "Per-movement mean of prediction minus actual, measured on the validation partition. Available for calibration; subtracting it removes the systematic component of the error.",
+  "note": "Scaler fitted on training inputs only. Sequences never cross a run boundary. Window chosen on validation. Test evaluated once."
+}

@@ -1,0 +1,96 @@
+{
+  "tls_id": "C",
+  "n_links": 12,
+  "cycle": 140,
+  "green_total": 120,
+  "yellow": 3,
+  "allred": 2,
+  "g_min": 10,
+  "g_max": 60,
+  "movements": [
+    "NB_L",
+    "NB_TR",
+    "SB_L",
+    "SB_TR",
+    "EB_L",
+    "EB_TR",
+    "WB_L",
+    "WB_TR"
+  ],
+  "movement_links": {
+    "NB_L": [
+      8
+    ],
+    "NB_TR": [
+      6,
+      7
+    ],
+    "SB_L": [
+      2
+    ],
+    "SB_TR": [
+      0,
+      1
+    ],
+    "EB_L": [
+      11
+    ],
+    "EB_TR": [
+      9,
+      10
+    ],
+    "WB_L": [
+      5
+    ],
+    "WB_TR": [
+      3,
+      4
+    ]
+  },
+  "phase_names": [
+    "NS_through_right",
+    "NS_left",
+    "EW_through_right",
+    "EW_left"
+  ],
+  "phase_movements": [
+    [
+      "NB_TR",
+      "SB_TR"
+    ],
+    [
+      "NB_L",
+      "SB_L"
+    ],
+    [
+      "EB_TR",
+      "WB_TR"
+    ],
+    [
+      "EB_L",
+      "WB_L"
+    ]
+  ],
+  "phase_links": [
+    [
+      0,
+      1,
+      6,
+      7
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      3,
+      4,
+      9,
+      10
+    ],
+    [
+      5,
+      11
+    ]
+  ]
+}

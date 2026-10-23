@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Induction loops on every lane, 50 m upstream of the stop line.
+     Approach edges are 250 m, so pos = 200 m.
+     One detector per lane = one detector per movement (8 total).
+     period = 140 s, matching the sampling / forecast / decision interval. -->
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+    <!-- Northbound (from South) -->
+    <inductionLoop id="det_NB_L"  lane="S2C_1" pos="200" period="140" file="detector_out.xml"/>
+    <inductionLoop id="det_NB_TR" lane="S2C_0" pos="200" period="140" file="detector_out.xml"/>
+
+    <!-- Southbound (from North) -->
+    <inductionLoop id="det_SB_L"  lane="N2C_1" pos="200" period="140" file="detector_out.xml"/>
+    <inductionLoop id="det_SB_TR" lane="N2C_0" pos="200" period="140" file="detector_out.xml"/>
+
+    <!-- Eastbound (from West) -->
+    <inductionLoop id="det_EB_L"  lane="W2C_1" pos="200" period="140" file="detector_out.xml"/>
+    <inductionLoop id="det_EB_TR" lane="W2C_0" pos="200" period="140" file="detector_out.xml"/>
+
+    <!-- Westbound (from East) -->
+    <inductionLoop id="det_WB_L"  lane="E2C_1" pos="200" period="140" file="detector_out.xml"/>
+    <inductionLoop id="det_WB_TR" lane="E2C_0" pos="200" period="140" file="detector_out.xml"/>
+
+</additional>

@@ -1,0 +1,14 @@
+{
+  "label": "fixedtime_current",
+  "completed_trips": 6847,
+  "simulated_seconds": 14399.0,
+  "throughput_veh_per_h": 1711.9,
+  "avg_waiting_time_s": 83.02,
+  "avg_time_loss_s": 99.8,
+  "avg_trip_duration_s": 137.77,
+  "avg_depart_delay_s": 248.15,
+  "mean_vehicles_waiting": 132.17,
+  "max_vehicles_waiting": 361,
+  "waiting_time_p50": 56.0,
+  "waiting_time_p95": 229.7
+}

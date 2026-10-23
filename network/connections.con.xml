@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Eight movements -> twelve signal links.
+     lane 1 (left lane)  = dedicated left turn
+     lane 0 (right lane) = shared through + right
+     Link indices are assigned by netconvert and read back by scripts/make_tls.py,
+     which derives the signal phases from the actual network.
+
+     Travel directions:
+       N2C = southbound   (left->E, through->S, right->W)
+       S2C = northbound   (left->W, through->N, right->E)
+       E2C = westbound    (left->S, through->W, right->N)
+       W2C = eastbound    (left->N, through->E, right->S)
+-->
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+
+    <!-- Southbound (from North) -->
+    <connection from="N2C" to="C2E" fromLane="1" toLane="1"/>  <!-- SB left  -->
+    <connection from="N2C" to="C2S" fromLane="0" toLane="0"/>  <!-- SB through -->
+    <connection from="N2C" to="C2W" fromLane="0" toLane="0"/>  <!-- SB right -->
+
+    <!-- Westbound (from East) -->
+    <connection from="E2C" to="C2S" fromLane="1" toLane="1"/>  <!-- WB left  -->
+    <connection from="E2C" to="C2W" fromLane="0" toLane="0"/>  <!-- WB through -->
+    <connection from="E2C" to="C2N" fromLane="0" toLane="0"/>  <!-- WB right -->
+
+    <!-- Northbound (from South) -->
+    <connection from="S2C" to="C2W" fromLane="1" toLane="1"/>  <!-- NB left  -->
+    <connection from="S2C" to="C2N" fromLane="0" toLane="0"/>  <!-- NB through -->
+    <connection from="S2C" to="C2E" fromLane="0" toLane="0"/>  <!-- NB right -->
+
+    <!-- Eastbound (from West) -->
+    <connection from="W2C" to="C2N" fromLane="1" toLane="1"/>  <!-- EB left  -->
+    <connection from="W2C" to="C2E" fromLane="0" toLane="0"/> <!-- EB through -->
+    <connection from="W2C" to="C2S" fromLane="0" toLane="0"/> <!-- EB right -->
+
+</connections>

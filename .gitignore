@@ -1,0 +1,26 @@
+# Python environment and caches
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Generated traffic: every route file is regenerated exactly from its seed
+# by demand/build_partitions.py and demand/build_scenarios.py
+*.rou.xml
+
+# Per-run SUMO and controller output (large; summarised in the result files)
+*tripinfo*.xml
+*summary.xml
+*_out.xml
+*_cycles.json
+*_run.json
+results/online_error/
+
+# Working logs, which record local file paths
+*.log
+
+# Evidence collected for the appendices
+appendix_evidence/
+appendix_evidence.zip

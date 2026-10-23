@@ -1,0 +1,86 @@
+[
+  {
+    "group": "control-law",
+    "name": "green times sum to 120s and respect bounds across 6 demand patterns",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "group": "control-law",
+    "name": "implemented aggregation rule is MAX",
+    "passed": true,
+    "detail": "Chapter Three must state the same rule. Phase demands 18,22 against 40,0 give unequal green under MAX and equal green under SUM.\nobserved greens [42, 10, 58, 10]"
+  },
+  {
+    "group": "timing",
+    "name": "green plus intergreen equals the specified cycle",
+    "passed": true,
+    "detail": "120 + 4x(3+2) = 140, specified 140"
+  },
+  {
+    "group": "timing",
+    "name": "programme in the network sums to the specified cycle",
+    "passed": true,
+    "detail": "programme totals 140.0s, specified 140s"
+  },
+  {
+    "group": "live",
+    "name": "fixed: detector counts do not exceed vehicles released",
+    "passed": true,
+    "detail": "counted 385, released before t=1261: 392"
+  },
+  {
+    "group": "live",
+    "name": "reactive: detector counts do not exceed vehicles released",
+    "passed": true,
+    "detail": "counted 385, released before t=1261: 392"
+  },
+  {
+    "group": "live",
+    "name": "predictive: detector counts do not exceed vehicles released",
+    "passed": true,
+    "detail": "counted 385, released before t=1261: 392"
+  },
+  {
+    "group": "live",
+    "name": "fixed: realised cycle equals the specified 140s",
+    "passed": true,
+    "detail": "observed intervals [140]"
+  },
+  {
+    "group": "live",
+    "name": "reactive: realised cycle equals the specified 140s",
+    "passed": true,
+    "detail": "observed intervals [140]"
+  },
+  {
+    "group": "live",
+    "name": "predictive: realised cycle equals the specified 140s",
+    "passed": true,
+    "detail": "observed intervals [140]"
+  },
+  {
+    "group": "live",
+    "name": "all controllers run the same cycle length",
+    "passed": true,
+    "detail": "fixed 140.0s  reactive 140.0s  predictive 140.0s   spread 0.0s"
+  },
+  {
+    "group": "live",
+    "name": "fixed: every applied green plan sums to 120s within bounds",
+    "passed": true,
+    "detail": "0 cycles violated the specification"
+  },
+  {
+    "group": "live",
+    "name": "reactive: every applied green plan sums to 120s within bounds",
+    "passed": true,
+    "detail": "0 cycles violated the specification"
+  },
+  {
+    "group": "live",
+    "name": "predictive: every applied green plan sums to 120s within bounds",
+    "passed": true,
+    "detail": "0 cycles violated the specification"
+  }
+]

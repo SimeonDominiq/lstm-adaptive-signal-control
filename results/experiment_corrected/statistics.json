@@ -1,0 +1,2432 @@
+[
+  {
+    "scenario": "low",
+    "comparison": "A vs B",
+    "controllers": [
+      "fixed",
+      "reactive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": -0.7975,
+        "normality_p": 0.98827,
+        "test": "paired t-test",
+        "statistic": -8.2249,
+        "p": 1.1076462638566366e-07,
+        "effect_name": "Cohen's d",
+        "effect_size": -1.8391,
+        "describe_A": {
+          "n": 20,
+          "mean": 34.6458,
+          "sd": 0.9997,
+          "ci95": [
+            34.178,
+            35.1137
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 35.4433,
+          "sd": 1.1028,
+          "ci95": [
+            34.9272,
+            35.9595
+          ]
+        },
+        "better": "A",
+        "p_holm": 4.1564760001571693e-07,
+        "significant_after_holm": true
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": -0.9142,
+        "normality_p": 0.907061,
+        "test": "paired t-test",
+        "statistic": -8.2328,
+        "p": 1.091618499634014e-07,
+        "effect_name": "Cohen's d",
+        "effect_size": -1.8409,
+        "describe_A": {
+          "n": 20,
+          "mean": 42.5235,
+          "sd": 0.9844,
+          "ci95": [
+            42.0628,
+            42.9842
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 43.4377,
+          "sd": 1.1112,
+          "ci95": [
+            42.9177,
+            43.9578
+          ]
+        },
+        "better": "A",
+        "p_holm": 4.1564760001571693e-07,
+        "significant_after_holm": true
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": -0.9143,
+        "normality_p": 0.925636,
+        "test": "paired t-test",
+        "statistic": -8.2599,
+        "p": 1.0391190000392923e-07,
+        "effect_name": "Cohen's d",
+        "effect_size": -1.847,
+        "describe_A": {
+          "n": 20,
+          "mean": 80.4324,
+          "sd": 0.9954,
+          "ci95": [
+            79.9665,
+            80.8983
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 81.3467,
+          "sd": 1.1225,
+          "ci95": [
+            80.8213,
+            81.872
+          ]
+        },
+        "better": "A",
+        "p_holm": 4.1564760001571693e-07,
+        "significant_after_holm": true
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": -0.2452,
+        "normality_p": 0.380219,
+        "test": "paired t-test",
+        "statistic": -2.2556,
+        "p": 0.03607924794882803,
+        "effect_name": "Cohen's d",
+        "effect_size": -0.5044,
+        "describe_A": {
+          "n": 20,
+          "mean": 1065.6864,
+          "sd": 15.5865,
+          "ci95": [
+            1058.3917,
+            1072.9811
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 1065.9316,
+          "sd": 15.6788,
+          "ci95": [
+            1058.5937,
+            1073.2695
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.03607924794882803,
+        "significant_after_holm": true
+      }
+    }
+  },
+  {
+    "scenario": "low",
+    "comparison": "B vs C",
+    "controllers": [
+      "reactive",
+      "predictive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": 0.8082,
+        "normality_p": 0.799721,
+        "test": "paired t-test",
+        "statistic": 9.794,
+        "p": 7.352227982435713e-09,
+        "effect_name": "Cohen's d",
+        "effect_size": 2.19,
+        "describe_B": {
+          "n": 20,
+          "mean": 35.4433,
+          "sd": 1.1028,
+          "ci95": [
+            34.9272,
+            35.9595
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 34.6351,
+          "sd": 0.9959,
+          "ci95": [
+            34.169,
+            35.1012
+          ]
+        },
+        "better": "C",
+        "p_holm": 2.3472679465728246e-08,
+        "significant_after_holm": true
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": 0.9361,
+        "normality_p": 0.624054,
+        "test": "paired t-test",
+        "statistic": 9.8553,
+        "p": 6.652262190157479e-09,
+        "effect_name": "Cohen's d",
+        "effect_size": 2.2037,
+        "describe_B": {
+          "n": 20,
+          "mean": 43.4377,
+          "sd": 1.1112,
+          "ci95": [
+            42.9177,
+            43.9578
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 42.5016,
+          "sd": 0.9824,
+          "ci95": [
+            42.0418,
+            42.9613
+          ]
+        },
+        "better": "C",
+        "p_holm": 2.3472679465728246e-08,
+        "significant_after_holm": true
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": 0.9362,
+        "normality_p": 0.604281,
+        "test": "paired t-test",
+        "statistic": 9.9326,
+        "p": 5.8681698664320615e-09,
+        "effect_name": "Cohen's d",
+        "effect_size": 2.221,
+        "describe_B": {
+          "n": 20,
+          "mean": 81.3467,
+          "sd": 1.1225,
+          "ci95": [
+            80.8213,
+            81.872
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 80.4105,
+          "sd": 0.9927,
+          "ci95": [
+            79.9459,
+            80.8751
+          ]
+        },
+        "better": "C",
+        "p_holm": 2.3472679465728246e-08,
+        "significant_after_holm": true
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": 0.0774,
+        "normality_p": 0.999548,
+        "test": "paired t-test",
+        "statistic": 0.9325,
+        "p": 0.3627837373813736,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.2085,
+        "describe_B": {
+          "n": 20,
+          "mean": 1065.9316,
+          "sd": 15.6788,
+          "ci95": [
+            1058.5937,
+            1073.2695
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 1065.8542,
+          "sd": 15.6635,
+          "ci95": [
+            1058.5235,
+            1073.1849
+          ]
+        },
+        "better": null,
+        "p_holm": 0.3627837373813736,
+        "significant_after_holm": false
+      }
+    }
+  },
+  {
+    "scenario": "low",
+    "comparison": "A vs C",
+    "controllers": [
+      "fixed",
+      "predictive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": 0.0107,
+        "normality_p": 0.051375,
+        "test": "paired t-test",
+        "statistic": 0.2468,
+        "p": 0.8077279448047656,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.0552,
+        "describe_A": {
+          "n": 20,
+          "mean": 34.6458,
+          "sd": 0.9997,
+          "ci95": [
+            34.178,
+            35.1137
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 34.6351,
+          "sd": 0.9959,
+          "ci95": [
+            34.169,
+            35.1012
+          ]
+        },
+        "better": null,
+        "p_holm": 1.0,
+        "significant_after_holm": false
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": 0.0219,
+        "normality_p": 0.106752,
+        "test": "paired t-test",
+        "statistic": 0.4601,
+        "p": 0.6506967113817839,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.1029,
+        "describe_A": {
+          "n": 20,
+          "mean": 42.5235,
+          "sd": 0.9844,
+          "ci95": [
+            42.0628,
+            42.9842
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 42.5016,
+          "sd": 0.9824,
+          "ci95": [
+            42.0418,
+            42.9613
+          ]
+        },
+        "better": null,
+        "p_holm": 1.0,
+        "significant_after_holm": false
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": 0.0219,
+        "normality_p": 0.101998,
+        "test": "paired t-test",
+        "statistic": 0.4615,
+        "p": 0.6496865490673986,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.1032,
+        "describe_A": {
+          "n": 20,
+          "mean": 80.4324,
+          "sd": 0.9954,
+          "ci95": [
+            79.9665,
+            80.8983
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 80.4105,
+          "sd": 0.9927,
+          "ci95": [
+            79.9459,
+            80.8751
+          ]
+        },
+        "better": null,
+        "p_holm": 1.0,
+        "significant_after_holm": false
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": -0.1678,
+        "normality_p": 0.64522,
+        "test": "paired t-test",
+        "statistic": -2.9941,
+        "p": 0.00745887527148265,
+        "effect_name": "Cohen's d",
+        "effect_size": -0.6695,
+        "describe_A": {
+          "n": 20,
+          "mean": 1065.6864,
+          "sd": 15.5865,
+          "ci95": [
+            1058.3917,
+            1072.9811
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 1065.8542,
+          "sd": 15.6635,
+          "ci95": [
+            1058.5235,
+            1073.1849
+          ]
+        },
+        "better": "C",
+        "p_holm": 0.0298355010859306,
+        "significant_after_holm": true
+      }
+    }
+  },
+  {
+    "scenario": "moderate",
+    "comparison": "A vs B",
+    "controllers": [
+      "fixed",
+      "reactive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": 5.3842,
+        "normality_p": 0.001203,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 29.0,
+        "p": 0.0031528472900390625,
+        "effect_name": "rank-biserial",
+        "effect_size": 0.7238,
+        "describe_A": {
+          "n": 20,
+          "mean": 46.443,
+          "sd": 8.7596,
+          "ci95": [
+            42.3434,
+            50.5426
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 41.0589,
+          "sd": 1.5005,
+          "ci95": [
+            40.3566,
+            41.7611
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.01261138916015625,
+        "significant_after_holm": true
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": 5.5549,
+        "normality_p": 0.001098,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 33.0,
+        "p": 0.005580902099609375,
+        "effect_name": "rank-biserial",
+        "effect_size": 0.6857,
+        "describe_A": {
+          "n": 20,
+          "mean": 56.9703,
+          "sd": 9.2082,
+          "ci95": [
+            52.6608,
+            61.2799
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 51.4154,
+          "sd": 1.581,
+          "ci95": [
+            50.6755,
+            52.1554
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.016742706298828125,
+        "significant_after_holm": true
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": 5.5549,
+        "normality_p": 0.001099,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 33.0,
+        "p": 0.005580902099609375,
+        "effect_name": "rank-biserial",
+        "effect_size": 0.6857,
+        "describe_A": {
+          "n": 20,
+          "mean": 94.9193,
+          "sd": 9.2225,
+          "ci95": [
+            90.603,
+            99.2355
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 89.3643,
+          "sd": 1.5918,
+          "ci95": [
+            88.6194,
+            90.1093
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.016742706298828125,
+        "significant_after_holm": true
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": -1.1147,
+        "normality_p": 0.000118,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 45.0,
+        "p": 0.04420843852469711,
+        "effect_name": "rank-biserial",
+        "effect_size": -0.5263,
+        "describe_A": {
+          "n": 20,
+          "mean": 1831.875,
+          "sd": 26.7093,
+          "ci95": [
+            1819.3746,
+            1844.3753
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 1832.9897,
+          "sd": 26.7776,
+          "ci95": [
+            1820.4574,
+            1845.522
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.04420843852469711,
+        "significant_after_holm": true
+      }
+    }
+  },
+  {
+    "scenario": "moderate",
+    "comparison": "B vs C",
+    "controllers": [
+      "reactive",
+      "predictive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": -4.0868,
+        "normality_p": 0.00165,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 36.0,
+        "p": 0.00830841064453125,
+        "effect_name": "rank-biserial",
+        "effect_size": -0.6571,
+        "describe_B": {
+          "n": 20,
+          "mean": 41.0589,
+          "sd": 1.5005,
+          "ci95": [
+            40.3566,
+            41.7611
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 45.1457,
+          "sd": 7.5956,
+          "ci95": [
+            41.5908,
+            48.7005
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.033233642578125,
+        "significant_after_holm": true
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": -4.1441,
+        "normality_p": 0.001668,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 40.0,
+        "p": 0.013616561889648438,
+        "effect_name": "rank-biserial",
+        "effect_size": -0.619,
+        "describe_B": {
+          "n": 20,
+          "mean": 51.4154,
+          "sd": 1.581,
+          "ci95": [
+            50.6755,
+            52.1554
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 55.5595,
+          "sd": 7.9562,
+          "ci95": [
+            51.8359,
+            59.2832
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.04084968566894531,
+        "significant_after_holm": true
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": -4.143,
+        "normality_p": 0.001673,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 40.0,
+        "p": 0.013616561889648438,
+        "effect_name": "rank-biserial",
+        "effect_size": -0.619,
+        "describe_B": {
+          "n": 20,
+          "mean": 89.3643,
+          "sd": 1.5918,
+          "ci95": [
+            88.6194,
+            90.1093
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 93.5073,
+          "sd": 7.9679,
+          "ci95": [
+            89.7783,
+            97.2364
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.04084968566894531,
+        "significant_after_holm": true
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": 0.609,
+        "normality_p": 4.3e-05,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 77.0,
+        "p": 0.3117942810058594,
+        "effect_name": "rank-biserial",
+        "effect_size": 0.2667,
+        "describe_B": {
+          "n": 20,
+          "mean": 1832.9897,
+          "sd": 26.7776,
+          "ci95": [
+            1820.4574,
+            1845.522
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 1832.3807,
+          "sd": 26.7455,
+          "ci95": [
+            1819.8634,
+            1844.8979
+          ]
+        },
+        "better": null,
+        "p_holm": 0.3117942810058594,
+        "significant_after_holm": false
+      }
+    }
+  },
+  {
+    "scenario": "moderate",
+    "comparison": "A vs C",
+    "controllers": [
+      "fixed",
+      "predictive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": 1.2974,
+        "normality_p": 9.7e-05,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 19.0,
+        "p": 0.0005855560302734375,
+        "effect_name": "rank-biserial",
+        "effect_size": 0.819,
+        "describe_A": {
+          "n": 20,
+          "mean": 46.443,
+          "sd": 8.7596,
+          "ci95": [
+            42.3434,
+            50.5426
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 45.1457,
+          "sd": 7.5956,
+          "ci95": [
+            41.5908,
+            48.7005
+          ]
+        },
+        "better": "C",
+        "p_holm": 0.00234222412109375,
+        "significant_after_holm": true
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": 1.4108,
+        "normality_p": 0.000115,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 24.0,
+        "p": 0.0014324188232421875,
+        "effect_name": "rank-biserial",
+        "effect_size": 0.7714,
+        "describe_A": {
+          "n": 20,
+          "mean": 56.9703,
+          "sd": 9.2082,
+          "ci95": [
+            52.6608,
+            61.2799
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 55.5595,
+          "sd": 7.9562,
+          "ci95": [
+            51.8359,
+            59.2832
+          ]
+        },
+        "better": "C",
+        "p_holm": 0.0042972564697265625,
+        "significant_after_holm": true
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": 1.4119,
+        "normality_p": 0.000117,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 24.0,
+        "p": 0.0014324188232421875,
+        "effect_name": "rank-biserial",
+        "effect_size": 0.7714,
+        "describe_A": {
+          "n": 20,
+          "mean": 94.9193,
+          "sd": 9.2225,
+          "ci95": [
+            90.603,
+            99.2355
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 93.5073,
+          "sd": 7.9679,
+          "ci95": [
+            89.7783,
+            97.2364
+          ]
+        },
+        "better": "C",
+        "p_holm": 0.0042972564697265625,
+        "significant_after_holm": true
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": -0.5057,
+        "normality_p": 0.015082,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 26.0,
+        "p": 0.005491205694554838,
+        "effect_name": "rank-biserial",
+        "effect_size": -0.7263,
+        "describe_A": {
+          "n": 20,
+          "mean": 1831.875,
+          "sd": 26.7093,
+          "ci95": [
+            1819.3746,
+            1844.3753
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 1832.3807,
+          "sd": 26.7455,
+          "ci95": [
+            1819.8634,
+            1844.8979
+          ]
+        },
+        "better": "C",
+        "p_holm": 0.005491205694554838,
+        "significant_after_holm": true
+      }
+    }
+  },
+  {
+    "scenario": "peak",
+    "comparison": "A vs B",
+    "controllers": [
+      "fixed",
+      "reactive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": 27.8933,
+        "normality_p": 0.040554,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 17.0,
+        "p": 0.0003948211669921875,
+        "effect_name": "rank-biserial",
+        "effect_size": 0.8381,
+        "describe_A": {
+          "n": 20,
+          "mean": 132.0519,
+          "sd": 32.7519,
+          "ci95": [
+            116.7236,
+            147.3803
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 104.1586,
+          "sd": 12.374,
+          "ci95": [
+            98.3674,
+            109.9498
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.0003948211669921875,
+        "significant_after_holm": true
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": 29.4478,
+        "normality_p": 0.11041,
+        "test": "paired t-test",
+        "statistic": 4.9635,
+        "p": 8.626460043622967e-05,
+        "effect_name": "Cohen's d",
+        "effect_size": 1.1099,
+        "describe_A": {
+          "n": 20,
+          "mean": 165.1985,
+          "sd": 30.1799,
+          "ci95": [
+            151.0739,
+            179.3232
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 135.7508,
+          "sd": 16.1708,
+          "ci95": [
+            128.1826,
+            143.3189
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.0002587109393394437,
+        "significant_after_holm": true
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": 29.4365,
+        "normality_p": 0.11047,
+        "test": "paired t-test",
+        "statistic": 4.9636,
+        "p": 8.623697977981456e-05,
+        "effect_name": "Cohen's d",
+        "effect_size": 1.1099,
+        "describe_A": {
+          "n": 20,
+          "mean": 203.1305,
+          "sd": 30.1855,
+          "ci95": [
+            189.0032,
+            217.2577
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 173.6939,
+          "sd": 16.1775,
+          "ci95": [
+            166.1227,
+            181.2652
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.0002587109393394437,
+        "significant_after_holm": true
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": 281.3186,
+        "normality_p": 0.044437,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 0.0,
+        "p": 1.9073486328125e-06,
+        "effect_name": "rank-biserial",
+        "effect_size": 1.0,
+        "describe_A": {
+          "n": 20,
+          "mean": 2453.1923,
+          "sd": 54.8552,
+          "ci95": [
+            2427.5193,
+            2478.8653
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 2171.8737,
+          "sd": 71.789,
+          "ci95": [
+            2138.2754,
+            2205.4719
+          ]
+        },
+        "better": "A",
+        "p_holm": 7.62939453125e-06,
+        "significant_after_holm": true
+      }
+    }
+  },
+  {
+    "scenario": "peak",
+    "comparison": "B vs C",
+    "controllers": [
+      "reactive",
+      "predictive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": -22.8369,
+        "normality_p": 0.028471,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 25.0,
+        "p": 0.001689910888671875,
+        "effect_name": "rank-biserial",
+        "effect_size": -0.7619,
+        "describe_B": {
+          "n": 20,
+          "mean": 104.1586,
+          "sd": 12.374,
+          "ci95": [
+            98.3674,
+            109.9498
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 126.9955,
+          "sd": 28.324,
+          "ci95": [
+            113.7394,
+            140.2515
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.001689910888671875,
+        "significant_after_holm": true
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": -25.9796,
+        "normality_p": 0.119448,
+        "test": "paired t-test",
+        "statistic": -4.9934,
+        "p": 8.068815753128834e-05,
+        "effect_name": "Cohen's d",
+        "effect_size": -1.1165,
+        "describe_B": {
+          "n": 20,
+          "mean": 135.7508,
+          "sd": 16.1708,
+          "ci95": [
+            128.1826,
+            143.3189
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 161.7303,
+          "sd": 26.1199,
+          "ci95": [
+            149.5059,
+            173.9548
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.00024190265926330955,
+        "significant_after_holm": true
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": -25.9701,
+        "normality_p": 0.119696,
+        "test": "paired t-test",
+        "statistic": -4.9937,
+        "p": 8.063421975443652e-05,
+        "effect_name": "Cohen's d",
+        "effect_size": -1.1166,
+        "describe_B": {
+          "n": 20,
+          "mean": 173.6939,
+          "sd": 16.1775,
+          "ci95": [
+            166.1227,
+            181.2652
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 199.6641,
+          "sd": 26.1251,
+          "ci95": [
+            187.4371,
+            211.891
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.00024190265926330955,
+        "significant_after_holm": true
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": -269.0771,
+        "normality_p": 0.029068,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 0.0,
+        "p": 1.9073486328125e-06,
+        "effect_name": "rank-biserial",
+        "effect_size": -1.0,
+        "describe_B": {
+          "n": 20,
+          "mean": 2171.8737,
+          "sd": 71.789,
+          "ci95": [
+            2138.2754,
+            2205.4719
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 2440.9507,
+          "sd": 60.9548,
+          "ci95": [
+            2412.423,
+            2469.4785
+          ]
+        },
+        "better": "C",
+        "p_holm": 7.62939453125e-06,
+        "significant_after_holm": true
+      }
+    }
+  },
+  {
+    "scenario": "peak",
+    "comparison": "A vs C",
+    "controllers": [
+      "fixed",
+      "predictive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": 5.0565,
+        "normality_p": 0.155055,
+        "test": "paired t-test",
+        "statistic": 2.7066,
+        "p": 0.013989354647219341,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.6052,
+        "describe_A": {
+          "n": 20,
+          "mean": 132.0519,
+          "sd": 32.7519,
+          "ci95": [
+            116.7236,
+            147.3803
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 126.9955,
+          "sd": 28.324,
+          "ci95": [
+            113.7394,
+            140.2515
+          ]
+        },
+        "better": null,
+        "p_holm": 0.055957418588877365,
+        "significant_after_holm": false
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": 3.4682,
+        "normality_p": 0.273174,
+        "test": "paired t-test",
+        "statistic": 1.8534,
+        "p": 0.07941376587957309,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.4144,
+        "describe_A": {
+          "n": 20,
+          "mean": 165.1985,
+          "sd": 30.1799,
+          "ci95": [
+            151.0739,
+            179.3232
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 161.7303,
+          "sd": 26.1199,
+          "ci95": [
+            149.5059,
+            173.9548
+          ]
+        },
+        "better": null,
+        "p_holm": 0.23824129763871926,
+        "significant_after_holm": false
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": 3.4664,
+        "normality_p": 0.273387,
+        "test": "paired t-test",
+        "statistic": 1.8526,
+        "p": 0.07953391099489938,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.4143,
+        "describe_A": {
+          "n": 20,
+          "mean": 203.1305,
+          "sd": 30.1855,
+          "ci95": [
+            189.0032,
+            217.2577
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 199.6641,
+          "sd": 26.1251,
+          "ci95": [
+            187.4371,
+            211.891
+          ]
+        },
+        "better": null,
+        "p_holm": 0.23824129763871926,
+        "significant_after_holm": false
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": 12.2415,
+        "normality_p": 0.75503,
+        "test": "paired t-test",
+        "statistic": 1.8405,
+        "p": 0.08136982215546823,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.4115,
+        "describe_A": {
+          "n": 20,
+          "mean": 2453.1923,
+          "sd": 54.8552,
+          "ci95": [
+            2427.5193,
+            2478.8653
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 2440.9507,
+          "sd": 60.9548,
+          "ci95": [
+            2412.423,
+            2469.4785
+          ]
+        },
+        "better": null,
+        "p_holm": 0.23824129763871926,
+        "significant_after_holm": false
+      }
+    }
+  },
+  {
+    "scenario": "oversaturated",
+    "comparison": "A vs B",
+    "controllers": [
+      "fixed",
+      "reactive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": 55.4144,
+        "normality_p": 5.5e-05,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 3.0,
+        "p": 9.5367431640625e-06,
+        "effect_name": "rank-biserial",
+        "effect_size": 0.9714,
+        "describe_A": {
+          "n": 20,
+          "mean": 183.4016,
+          "sd": 35.6127,
+          "ci95": [
+            166.7344,
+            200.0689
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 127.9872,
+          "sd": 9.3352,
+          "ci95": [
+            123.6182,
+            132.3562
+          ]
+        },
+        "better": "B",
+        "p_holm": 1.71661376953125e-05,
+        "significant_after_holm": true
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": 53.1203,
+        "normality_p": 0.00017,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 2.0,
+        "p": 5.7220458984375e-06,
+        "effect_name": "rank-biserial",
+        "effect_size": 0.981,
+        "describe_A": {
+          "n": 20,
+          "mean": 219.829,
+          "sd": 33.6961,
+          "ci95": [
+            204.0588,
+            235.5993
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 166.7088,
+          "sd": 11.4123,
+          "ci95": [
+            161.3676,
+            172.0499
+          ]
+        },
+        "better": "B",
+        "p_holm": 1.71661376953125e-05,
+        "significant_after_holm": true
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": 53.0758,
+        "normality_p": 0.000169,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 2.0,
+        "p": 5.7220458984375e-06,
+        "effect_name": "rank-biserial",
+        "effect_size": 0.981,
+        "describe_A": {
+          "n": 20,
+          "mean": 257.7626,
+          "sd": 33.6931,
+          "ci95": [
+            241.9938,
+            273.5315
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 204.6868,
+          "sd": 11.4243,
+          "ci95": [
+            199.3401,
+            210.0336
+          ]
+        },
+        "better": "B",
+        "p_holm": 1.71661376953125e-05,
+        "significant_after_holm": true
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": 400.7593,
+        "normality_p": 0.001744,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 0.0,
+        "p": 1.9073486328125e-06,
+        "effect_name": "rank-biserial",
+        "effect_size": 1.0,
+        "describe_A": {
+          "n": 20,
+          "mean": 2588.8941,
+          "sd": 92.2937,
+          "ci95": [
+            2545.6993,
+            2632.0889
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 2188.1349,
+          "sd": 78.0686,
+          "ci95": [
+            2151.5976,
+            2224.6721
+          ]
+        },
+        "better": "A",
+        "p_holm": 7.62939453125e-06,
+        "significant_after_holm": true
+      }
+    }
+  },
+  {
+    "scenario": "oversaturated",
+    "comparison": "B vs C",
+    "controllers": [
+      "reactive",
+      "predictive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": -50.9494,
+        "normality_p": 0.000414,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 9.0,
+        "p": 6.29425048828125e-05,
+        "effect_name": "rank-biserial",
+        "effect_size": -0.9143,
+        "describe_B": {
+          "n": 20,
+          "mean": 127.9872,
+          "sd": 9.3352,
+          "ci95": [
+            123.6182,
+            132.3562
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 178.9366,
+          "sd": 37.3197,
+          "ci95": [
+            161.4705,
+            196.4027
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.0001087188720703125,
+        "significant_after_holm": true
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": -48.6835,
+        "normality_p": 0.001474,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 7.0,
+        "p": 3.62396240234375e-05,
+        "effect_name": "rank-biserial",
+        "effect_size": -0.9333,
+        "describe_B": {
+          "n": 20,
+          "mean": 166.7088,
+          "sd": 11.4123,
+          "ci95": [
+            161.3676,
+            172.0499
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 215.3923,
+          "sd": 35.5878,
+          "ci95": [
+            198.7366,
+            232.0479
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.0001087188720703125,
+        "significant_after_holm": true
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": -48.6417,
+        "normality_p": 0.001468,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 7.0,
+        "p": 3.62396240234375e-05,
+        "effect_name": "rank-biserial",
+        "effect_size": -0.9333,
+        "describe_B": {
+          "n": 20,
+          "mean": 204.6868,
+          "sd": 11.4243,
+          "ci95": [
+            199.3401,
+            210.0336
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 253.3285,
+          "sd": 35.5835,
+          "ci95": [
+            236.6749,
+            269.9821
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.0001087188720703125,
+        "significant_after_holm": true
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": -391.78,
+        "normality_p": 0.001411,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 0.0,
+        "p": 1.9073486328125e-06,
+        "effect_name": "rank-biserial",
+        "effect_size": -1.0,
+        "describe_B": {
+          "n": 20,
+          "mean": 2188.1349,
+          "sd": 78.0686,
+          "ci95": [
+            2151.5976,
+            2224.6721
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 2579.9148,
+          "sd": 98.0266,
+          "ci95": [
+            2534.037,
+            2625.7927
+          ]
+        },
+        "better": "C",
+        "p_holm": 7.62939453125e-06,
+        "significant_after_holm": true
+      }
+    }
+  },
+  {
+    "scenario": "oversaturated",
+    "comparison": "A vs C",
+    "controllers": [
+      "fixed",
+      "predictive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": 4.465,
+        "normality_p": 6.3e-05,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 10.0,
+        "p": 8.20159912109375e-05,
+        "effect_name": "rank-biserial",
+        "effect_size": 0.9048,
+        "describe_A": {
+          "n": 20,
+          "mean": 183.4016,
+          "sd": 35.6127,
+          "ci95": [
+            166.7344,
+            200.0689
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 178.9366,
+          "sd": 37.3197,
+          "ci95": [
+            161.4705,
+            196.4027
+          ]
+        },
+        "better": "C",
+        "p_holm": 0.00032806396484375,
+        "significant_after_holm": true
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": 4.4368,
+        "normality_p": 0.000167,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 15.0,
+        "p": 0.0002613067626953125,
+        "effect_name": "rank-biserial",
+        "effect_size": 0.8571,
+        "describe_A": {
+          "n": 20,
+          "mean": 219.829,
+          "sd": 33.6961,
+          "ci95": [
+            204.0588,
+            235.5993
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 215.3923,
+          "sd": 35.5878,
+          "ci95": [
+            198.7366,
+            232.0479
+          ]
+        },
+        "better": "C",
+        "p_holm": 0.0007839202880859375,
+        "significant_after_holm": true
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": 4.4341,
+        "normality_p": 0.000167,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 15.0,
+        "p": 0.0002613067626953125,
+        "effect_name": "rank-biserial",
+        "effect_size": 0.8571,
+        "describe_A": {
+          "n": 20,
+          "mean": 257.7626,
+          "sd": 33.6931,
+          "ci95": [
+            241.9938,
+            273.5315
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 253.3285,
+          "sd": 35.5835,
+          "ci95": [
+            236.6749,
+            269.9821
+          ]
+        },
+        "better": "C",
+        "p_holm": 0.0007839202880859375,
+        "significant_after_holm": true
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": 8.9793,
+        "normality_p": 0.069861,
+        "test": "paired t-test",
+        "statistic": 3.1151,
+        "p": 0.005699855221561993,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.6966,
+        "describe_A": {
+          "n": 20,
+          "mean": 2588.8941,
+          "sd": 92.2937,
+          "ci95": [
+            2545.6993,
+            2632.0889
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 2579.9148,
+          "sd": 98.0266,
+          "ci95": [
+            2534.037,
+            2625.7927
+          ]
+        },
+        "better": "A",
+        "p_holm": 0.005699855221561993,
+        "significant_after_holm": true
+      }
+    }
+  },
+  {
+    "scenario": "surge",
+    "comparison": "A vs B",
+    "controllers": [
+      "fixed",
+      "reactive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": 5.032,
+        "normality_p": 0.027142,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 51.0,
+        "p": 0.04405403137207031,
+        "effect_name": "rank-biserial",
+        "effect_size": 0.5143,
+        "describe_A": {
+          "n": 20,
+          "mean": 73.3427,
+          "sd": 14.8309,
+          "ci95": [
+            66.4016,
+            80.2838
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 68.3106,
+          "sd": 12.8416,
+          "ci95": [
+            62.3006,
+            74.3207
+          ]
+        },
+        "better": null,
+        "p_holm": 0.17621612548828125,
+        "significant_after_holm": false
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": 1.4624,
+        "normality_p": 0.065606,
+        "test": "paired t-test",
+        "statistic": 0.5067,
+        "p": 0.6181677141542492,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.1133,
+        "describe_A": {
+          "n": 20,
+          "mean": 89.437,
+          "sd": 15.271,
+          "ci95": [
+            82.29,
+            96.5841
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 87.9746,
+          "sd": 15.5992,
+          "ci95": [
+            80.6739,
+            95.2753
+          ]
+        },
+        "better": null,
+        "p_holm": 1.0,
+        "significant_after_holm": false
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": 1.4615,
+        "normality_p": 0.065643,
+        "test": "paired t-test",
+        "statistic": 0.5064,
+        "p": 0.6184140437243525,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.1132,
+        "describe_A": {
+          "n": 20,
+          "mean": 127.3615,
+          "sd": 15.2827,
+          "ci95": [
+            120.209,
+            134.514
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 125.9001,
+          "sd": 15.6103,
+          "ci95": [
+            118.5942,
+            133.2059
+          ]
+        },
+        "better": null,
+        "p_holm": 1.0,
+        "significant_after_holm": false
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": -5.1532,
+        "normality_p": 0.94183,
+        "test": "paired t-test",
+        "statistic": -0.7888,
+        "p": 0.43998278994088313,
+        "effect_name": "Cohen's d",
+        "effect_size": -0.1764,
+        "describe_A": {
+          "n": 20,
+          "mean": 1987.2545,
+          "sd": 38.0374,
+          "ci95": [
+            1969.4525,
+            2005.0566
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 1992.4077,
+          "sd": 44.4698,
+          "ci95": [
+            1971.5952,
+            2013.2202
+          ]
+        },
+        "better": null,
+        "p_holm": 1.0,
+        "significant_after_holm": false
+      }
+    }
+  },
+  {
+    "scenario": "surge",
+    "comparison": "B vs C",
+    "controllers": [
+      "reactive",
+      "predictive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": -1.9976,
+        "normality_p": 0.871173,
+        "test": "paired t-test",
+        "statistic": -1.0485,
+        "p": 0.30757329977848313,
+        "effect_name": "Cohen's d",
+        "effect_size": -0.2344,
+        "describe_B": {
+          "n": 20,
+          "mean": 68.3106,
+          "sd": 12.8416,
+          "ci95": [
+            62.3006,
+            74.3207
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 70.3083,
+          "sd": 9.2984,
+          "ci95": [
+            65.9565,
+            74.6601
+          ]
+        },
+        "better": null,
+        "p_holm": 0.9227198993354494,
+        "significant_after_holm": false
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": 0.6367,
+        "normality_p": 0.46452,
+        "test": "paired t-test",
+        "statistic": 0.2488,
+        "p": 0.8062058712966726,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.0556,
+        "describe_B": {
+          "n": 20,
+          "mean": 87.9746,
+          "sd": 15.5992,
+          "ci95": [
+            80.6739,
+            95.2753
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 87.3379,
+          "sd": 9.0797,
+          "ci95": [
+            83.0885,
+            91.5873
+          ]
+        },
+        "better": null,
+        "p_holm": 1.0,
+        "significant_after_holm": false
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": 0.6392,
+        "normality_p": 0.463212,
+        "test": "paired t-test",
+        "statistic": 0.2497,
+        "p": 0.805474358316786,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.0558,
+        "describe_B": {
+          "n": 20,
+          "mean": 125.9001,
+          "sd": 15.6103,
+          "ci95": [
+            118.5942,
+            133.2059
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 125.2609,
+          "sd": 9.0923,
+          "ci95": [
+            121.0056,
+            129.5163
+          ]
+        },
+        "better": null,
+        "p_holm": 1.0,
+        "significant_after_holm": false
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": -41.465,
+        "normality_p": 0.026105,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 3.0,
+        "p": 9.5367431640625e-06,
+        "effect_name": "rank-biserial",
+        "effect_size": -0.9714,
+        "describe_B": {
+          "n": 20,
+          "mean": 1992.4077,
+          "sd": 44.4698,
+          "ci95": [
+            1971.5952,
+            2013.2202
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 2033.8727,
+          "sd": 34.6546,
+          "ci95": [
+            2017.6539,
+            2050.0916
+          ]
+        },
+        "better": "C",
+        "p_holm": 3.814697265625e-05,
+        "significant_after_holm": true
+      }
+    }
+  },
+  {
+    "scenario": "surge",
+    "comparison": "A vs C",
+    "controllers": [
+      "fixed",
+      "predictive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": 3.0344,
+        "normality_p": 0.518683,
+        "test": "paired t-test",
+        "statistic": 1.7866,
+        "p": 0.08996573734974463,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.3995,
+        "describe_A": {
+          "n": 20,
+          "mean": 73.3427,
+          "sd": 14.8309,
+          "ci95": [
+            66.4016,
+            80.2838
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 70.3083,
+          "sd": 9.2984,
+          "ci95": [
+            65.9565,
+            74.6601
+          ]
+        },
+        "better": null,
+        "p_holm": 0.2698972120492339,
+        "significant_after_holm": false
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": 2.0991,
+        "normality_p": 0.710625,
+        "test": "paired t-test",
+        "statistic": 1.0512,
+        "p": 0.3063414081006065,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.2351,
+        "describe_A": {
+          "n": 20,
+          "mean": 89.437,
+          "sd": 15.271,
+          "ci95": [
+            82.29,
+            96.5841
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 87.3379,
+          "sd": 9.0797,
+          "ci95": [
+            83.0885,
+            91.5873
+          ]
+        },
+        "better": null,
+        "p_holm": 0.6118554932412552,
+        "significant_after_holm": false
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": 2.1006,
+        "normality_p": 0.711522,
+        "test": "paired t-test",
+        "statistic": 1.0522,
+        "p": 0.3059277466206276,
+        "effect_name": "Cohen's d",
+        "effect_size": 0.2353,
+        "describe_A": {
+          "n": 20,
+          "mean": 127.3615,
+          "sd": 15.2827,
+          "ci95": [
+            120.209,
+            134.514
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 125.2609,
+          "sd": 9.0923,
+          "ci95": [
+            121.0056,
+            129.5163
+          ]
+        },
+        "better": null,
+        "p_holm": 0.6118554932412552,
+        "significant_after_holm": false
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": -46.6182,
+        "normality_p": 0.052908,
+        "test": "paired t-test",
+        "statistic": -11.7438,
+        "p": 3.727299239663446e-10,
+        "effect_name": "Cohen's d",
+        "effect_size": -2.626,
+        "describe_A": {
+          "n": 20,
+          "mean": 1987.2545,
+          "sd": 38.0374,
+          "ci95": [
+            1969.4525,
+            2005.0566
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 2033.8727,
+          "sd": 34.6546,
+          "ci95": [
+            2017.6539,
+            2050.0916
+          ]
+        },
+        "better": "C",
+        "p_holm": 1.4909196958653784e-09,
+        "significant_after_holm": true
+      }
+    }
+  },
+  {
+    "scenario": "imbalanced",
+    "comparison": "A vs B",
+    "controllers": [
+      "fixed",
+      "reactive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": 69.1846,
+        "normality_p": 0.159355,
+        "test": "paired t-test",
+        "statistic": 9.3788,
+        "p": 1.4635841404438818e-08,
+        "effect_name": "Cohen's d",
+        "effect_size": 2.0972,
+        "describe_A": {
+          "n": 20,
+          "mean": 117.1403,
+          "sd": 30.3601,
+          "ci95": [
+            102.9313,
+            131.3493
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 47.9556,
+          "sd": 6.39,
+          "ci95": [
+            44.965,
+            50.9463
+          ]
+        },
+        "better": "B",
+        "p_holm": 2.9271682808877637e-08,
+        "significant_after_holm": true
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": 80.2491,
+        "normality_p": 0.323756,
+        "test": "paired t-test",
+        "statistic": 10.516,
+        "p": 2.3261542836309456e-09,
+        "effect_name": "Cohen's d",
+        "effect_size": 2.3514,
+        "describe_A": {
+          "n": 20,
+          "mean": 144.3391,
+          "sd": 29.2824,
+          "ci95": [
+            130.6346,
+            158.0437
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 64.09,
+          "sd": 10.2517,
+          "ci95": [
+            59.2921,
+            68.8879
+          ]
+        },
+        "better": "B",
+        "p_holm": 9.28138173806589e-09,
+        "significant_after_holm": true
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": 80.2509,
+        "normality_p": 0.324382,
+        "test": "paired t-test",
+        "statistic": 10.5176,
+        "p": 2.3203454345164726e-09,
+        "effect_name": "Cohen's d",
+        "effect_size": 2.3518,
+        "describe_A": {
+          "n": 20,
+          "mean": 182.2723,
+          "sd": 29.2891,
+          "ci95": [
+            168.5645,
+            195.98
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 102.0214,
+          "sd": 10.2444,
+          "ci95": [
+            97.2269,
+            106.8159
+          ]
+        },
+        "better": "B",
+        "p_holm": 9.28138173806589e-09,
+        "significant_after_holm": true
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": -156.6345,
+        "normality_p": 0.146529,
+        "test": "paired t-test",
+        "statistic": -8.1332,
+        "p": 1.310194673639115e-07,
+        "effect_name": "Cohen's d",
+        "effect_size": -1.8186,
+        "describe_A": {
+          "n": 20,
+          "mean": 1828.0211,
+          "sd": 84.1908,
+          "ci95": [
+            1788.6186,
+            1867.4236
+          ]
+        },
+        "describe_B": {
+          "n": 20,
+          "mean": 1984.6556,
+          "sd": 21.401,
+          "ci95": [
+            1974.6396,
+            1994.6715
+          ]
+        },
+        "better": "B",
+        "p_holm": 1.310194673639115e-07,
+        "significant_after_holm": true
+      }
+    }
+  },
+  {
+    "scenario": "imbalanced",
+    "comparison": "B vs C",
+    "controllers": [
+      "reactive",
+      "predictive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": -2.5115,
+        "normality_p": 0.351403,
+        "test": "paired t-test",
+        "statistic": -3.6152,
+        "p": 0.0018437210032137851,
+        "effect_name": "Cohen's d",
+        "effect_size": -0.8084,
+        "describe_B": {
+          "n": 20,
+          "mean": 47.9556,
+          "sd": 6.39,
+          "ci95": [
+            44.965,
+            50.9463
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 50.4671,
+          "sd": 5.7399,
+          "ci95": [
+            47.7808,
+            53.1535
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.005234197305768706,
+        "significant_after_holm": true
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": -3.3497,
+        "normality_p": 0.33304,
+        "test": "paired t-test",
+        "statistic": -3.7656,
+        "p": 0.0013085493264421765,
+        "effect_name": "Cohen's d",
+        "effect_size": -0.842,
+        "describe_B": {
+          "n": 20,
+          "mean": 64.09,
+          "sd": 10.2517,
+          "ci95": [
+            59.2921,
+            68.8879
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 67.4397,
+          "sd": 9.1782,
+          "ci95": [
+            63.1441,
+            71.7352
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.005234197305768706,
+        "significant_after_holm": true
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": -3.3488,
+        "normality_p": 0.33235,
+        "test": "paired t-test",
+        "statistic": -3.7644,
+        "p": 0.0013120758150437601,
+        "effect_name": "Cohen's d",
+        "effect_size": -0.8418,
+        "describe_B": {
+          "n": 20,
+          "mean": 102.0214,
+          "sd": 10.2444,
+          "ci95": [
+            97.2269,
+            106.8159
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 105.3702,
+          "sd": 9.1705,
+          "ci95": [
+            101.0783,
+            109.6621
+          ]
+        },
+        "better": "B",
+        "p_holm": 0.005234197305768706,
+        "significant_after_holm": true
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": -2.1848,
+        "normality_p": 2e-06,
+        "test": "Wilcoxon signed-rank",
+        "statistic": 38.0,
+        "p": 0.02180173863525491,
+        "effect_name": "rank-biserial",
+        "effect_size": -0.6,
+        "describe_B": {
+          "n": 20,
+          "mean": 1984.6556,
+          "sd": 21.401,
+          "ci95": [
+            1974.6396,
+            1994.6715
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 1986.8404,
+          "sd": 21.7601,
+          "ci95": [
+            1976.6564,
+            1997.0244
+          ]
+        },
+        "better": "C",
+        "p_holm": 0.02180173863525491,
+        "significant_after_holm": true
+      }
+    }
+  },
+  {
+    "scenario": "imbalanced",
+    "comparison": "A vs C",
+    "controllers": [
+      "fixed",
+      "predictive"
+    ],
+    "n_pairs": 20,
+    "metrics": {
+      "waiting_time": {
+        "n": 20,
+        "mean_difference": 66.6731,
+        "normality_p": 0.108152,
+        "test": "paired t-test",
+        "statistic": 9.5359,
+        "p": 1.125326155582412e-08,
+        "effect_name": "Cohen's d",
+        "effect_size": 2.1323,
+        "describe_A": {
+          "n": 20,
+          "mean": 117.1403,
+          "sd": 30.3601,
+          "ci95": [
+            102.9313,
+            131.3493
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 50.4671,
+          "sd": 5.7399,
+          "ci95": [
+            47.7808,
+            53.1535
+          ]
+        },
+        "better": "C",
+        "p_holm": 2.250652311164824e-08,
+        "significant_after_holm": true
+      },
+      "time_loss": {
+        "n": 20,
+        "mean_difference": 76.8994,
+        "normality_p": 0.292052,
+        "test": "paired t-test",
+        "statistic": 10.6958,
+        "p": 1.762086761392966e-09,
+        "effect_name": "Cohen's d",
+        "effect_size": 2.3916,
+        "describe_A": {
+          "n": 20,
+          "mean": 144.3391,
+          "sd": 29.2824,
+          "ci95": [
+            130.6346,
+            158.0437
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 67.4397,
+          "sd": 9.1782,
+          "ci95": [
+            63.1441,
+            71.7352
+          ]
+        },
+        "better": "C",
+        "p_holm": 7.0294840808158015e-09,
+        "significant_after_holm": true
+      },
+      "duration": {
+        "n": 20,
+        "mean_difference": 76.9021,
+        "normality_p": 0.29241,
+        "test": "paired t-test",
+        "statistic": 10.6975,
+        "p": 1.7573710202039504e-09,
+        "effect_name": "Cohen's d",
+        "effect_size": 2.392,
+        "describe_A": {
+          "n": 20,
+          "mean": 182.2723,
+          "sd": 29.2891,
+          "ci95": [
+            168.5645,
+            195.98
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 105.3702,
+          "sd": 9.1705,
+          "ci95": [
+            101.0783,
+            109.6621
+          ]
+        },
+        "better": "C",
+        "p_holm": 7.0294840808158015e-09,
+        "significant_after_holm": true
+      },
+      "throughput": {
+        "n": 20,
+        "mean_difference": -158.8193,
+        "normality_p": 0.144153,
+        "test": "paired t-test",
+        "statistic": -8.1422,
+        "p": 1.2888641629304095e-07,
+        "effect_name": "Cohen's d",
+        "effect_size": -1.8206,
+        "describe_A": {
+          "n": 20,
+          "mean": 1828.0211,
+          "sd": 84.1908,
+          "ci95": [
+            1788.6186,
+            1867.4236
+          ]
+        },
+        "describe_C": {
+          "n": 20,
+          "mean": 1986.8404,
+          "sd": 21.7601,
+          "ci95": [
+            1976.6564,
+            1997.0244
+          ]
+        },
+        "better": "C",
+        "p_holm": 1.2888641629304095e-07,
+        "significant_after_holm": true
+      }
+    }
+  }
+]

@@ -1,0 +1,809 @@
+{
+  "capacity_veh_per_h": 3085.7142857142853,
+  "cycles_per_run": 102,
+  "movements": [
+    "NB_L",
+    "NB_TR",
+    "SB_L",
+    "SB_TR",
+    "EB_L",
+    "EB_TR",
+    "WB_L",
+    "WB_TR"
+  ],
+  "crest": 0.12,
+  "noise_sd": 0.02,
+  "partitions": {
+    "train": {
+      "vary_turning": false,
+      "n_runs": 24,
+      "phf_specified_mean": 0.9178,
+      "phf_specified_range": [
+        0.9021,
+        0.9362
+      ],
+      "saturated_mean_of_capacity": 0.8502,
+      "runs": [
+        {
+          "route_file": "train/train_p1_s1000.rou.xml",
+          "profile_id": 1,
+          "seed": 1000,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7157,
+          "phf_specified": 0.9362,
+          "phf_realised": 0.9265
+        },
+        {
+          "route_file": "train/train_p2_s1001.rou.xml",
+          "profile_id": 2,
+          "seed": 1001,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 6807,
+          "phf_specified": 0.9021,
+          "phf_realised": 0.9148
+        },
+        {
+          "route_file": "train/train_p3_s1002.rou.xml",
+          "profile_id": 3,
+          "seed": 1002,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7103,
+          "phf_specified": 0.9251,
+          "phf_realised": 0.9213
+        },
+        {
+          "route_file": "train/train_p4_s1003.rou.xml",
+          "profile_id": 4,
+          "seed": 1003,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 6981,
+          "phf_specified": 0.9196,
+          "phf_realised": 0.9168
+        },
+        {
+          "route_file": "train/train_p5_s1004.rou.xml",
+          "profile_id": 5,
+          "seed": 1004,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7206,
+          "phf_specified": 0.9104,
+          "phf_realised": 0.9019
+        },
+        {
+          "route_file": "train/train_p6_s1005.rou.xml",
+          "profile_id": 6,
+          "seed": 1005,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7225,
+          "phf_specified": 0.9157,
+          "phf_realised": 0.9344
+        },
+        {
+          "route_file": "train/train_p7_s1006.rou.xml",
+          "profile_id": 7,
+          "seed": 1006,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7022,
+          "phf_specified": 0.9274,
+          "phf_realised": 0.9061
+        },
+        {
+          "route_file": "train/train_p8_s1007.rou.xml",
+          "profile_id": 8,
+          "seed": 1007,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 6898,
+          "phf_specified": 0.9168,
+          "phf_realised": 0.9026
+        },
+        {
+          "route_file": "train/train_p9_s1008.rou.xml",
+          "profile_id": 9,
+          "seed": 1008,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7048,
+          "phf_specified": 0.9113,
+          "phf_realised": 0.8831
+        },
+        {
+          "route_file": "train/train_p10_s1009.rou.xml",
+          "profile_id": 10,
+          "seed": 1009,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 6901,
+          "phf_specified": 0.9062,
+          "phf_realised": 0.8821
+        },
+        {
+          "route_file": "train/train_p11_s1010.rou.xml",
+          "profile_id": 11,
+          "seed": 1010,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7394,
+          "phf_specified": 0.9141,
+          "phf_realised": 0.9144
+        },
+        {
+          "route_file": "train/train_p12_s1011.rou.xml",
+          "profile_id": 12,
+          "seed": 1011,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 6915,
+          "phf_specified": 0.9081,
+          "phf_realised": 0.9086
+        },
+        {
+          "route_file": "train/train_p60_s6000.rou.xml",
+          "profile_id": 60,
+          "seed": 6000,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.06,
+          "n_vehicles": 7112,
+          "phf_specified": 0.9105,
+          "phf_realised": 0.8929
+        },
+        {
+          "route_file": "train/train_p61_s6001.rou.xml",
+          "profile_id": 61,
+          "seed": 6001,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.12,
+          "n_vehicles": 6707,
+          "phf_specified": 0.9174,
+          "phf_realised": 0.924
+        },
+        {
+          "route_file": "train/train_p62_s6002.rou.xml",
+          "profile_id": 62,
+          "seed": 6002,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.18,
+          "n_vehicles": 7275,
+          "phf_specified": 0.9186,
+          "phf_realised": 0.9176
+        },
+        {
+          "route_file": "train/train_p63_s6003.rou.xml",
+          "profile_id": 63,
+          "seed": 6003,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.24,
+          "n_vehicles": 6836,
+          "phf_specified": 0.9278,
+          "phf_realised": 0.941
+        },
+        {
+          "route_file": "train/train_p64_s6004.rou.xml",
+          "profile_id": 64,
+          "seed": 6004,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.3,
+          "n_vehicles": 7322,
+          "phf_specified": 0.9187,
+          "phf_realised": 0.9509
+        },
+        {
+          "route_file": "train/train_p65_s6005.rou.xml",
+          "profile_id": 65,
+          "seed": 6005,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.36,
+          "n_vehicles": 7160,
+          "phf_specified": 0.9175,
+          "phf_realised": 0.9486
+        },
+        {
+          "route_file": "train/train_p66_s6006.rou.xml",
+          "profile_id": 66,
+          "seed": 6006,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.06,
+          "n_vehicles": 7117,
+          "phf_specified": 0.9149,
+          "phf_realised": 0.9477
+        },
+        {
+          "route_file": "train/train_p67_s6007.rou.xml",
+          "profile_id": 67,
+          "seed": 6007,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.12,
+          "n_vehicles": 7365,
+          "phf_specified": 0.9184,
+          "phf_realised": 0.9163
+        },
+        {
+          "route_file": "train/train_p68_s6008.rou.xml",
+          "profile_id": 68,
+          "seed": 6008,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.18,
+          "n_vehicles": 6978,
+          "phf_specified": 0.9177,
+          "phf_realised": 0.8726
+        },
+        {
+          "route_file": "train/train_p69_s6009.rou.xml",
+          "profile_id": 69,
+          "seed": 6009,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.24,
+          "n_vehicles": 7072,
+          "phf_specified": 0.9191,
+          "phf_realised": 0.9095
+        },
+        {
+          "route_file": "train/train_p70_s6010.rou.xml",
+          "profile_id": 70,
+          "seed": 6010,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.3,
+          "n_vehicles": 7367,
+          "phf_specified": 0.922,
+          "phf_realised": 0.9502
+        },
+        {
+          "route_file": "train/train_p71_s6011.rou.xml",
+          "profile_id": 71,
+          "seed": 6011,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.15,
+            "through": 0.7,
+            "right": 0.15
+          },
+          "axis_imbalance": 0.36,
+          "n_vehicles": 6793,
+          "phf_specified": 0.9328,
+          "phf_realised": 0.9259
+        }
+      ]
+    },
+    "val": {
+      "vary_turning": true,
+      "n_runs": 12,
+      "phf_specified_mean": 0.9198,
+      "phf_specified_range": [
+        0.91,
+        0.9324
+      ],
+      "saturated_mean_of_capacity": 0.8499,
+      "runs": [
+        {
+          "route_file": "val/val_p20_s2000.rou.xml",
+          "profile_id": 20,
+          "seed": 2000,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.13718335223295355,
+            "through": 0.7073041257643806,
+            "right": 0.1555125220026659
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7169,
+          "phf_specified": 0.9324,
+          "phf_realised": 0.8962
+        },
+        {
+          "route_file": "val/val_p21_s2001.rou.xml",
+          "profile_id": 21,
+          "seed": 2001,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.12133121125028436,
+            "through": 0.7471947751236411,
+            "right": 0.1314740136260746
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7061,
+          "phf_specified": 0.918,
+          "phf_realised": 0.926
+        },
+        {
+          "route_file": "val/val_p22_s2002.rou.xml",
+          "profile_id": 22,
+          "seed": 2002,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.1463765384272358,
+            "through": 0.6768607662635358,
+            "right": 0.17676269530922847
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7150,
+          "phf_specified": 0.91,
+          "phf_realised": 0.9286
+        },
+        {
+          "route_file": "val/val_p23_s2003.rou.xml",
+          "profile_id": 23,
+          "seed": 2003,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.17907955074993082,
+            "through": 0.6407980403338196,
+            "right": 0.18012240891624967
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7459,
+          "phf_specified": 0.9191,
+          "phf_realised": 0.9269
+        },
+        {
+          "route_file": "val/val_p24_s2004.rou.xml",
+          "profile_id": 24,
+          "seed": 2004,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.10192798497348222,
+            "through": 0.7090616012694243,
+            "right": 0.18901041375709351
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7241,
+          "phf_specified": 0.9157,
+          "phf_realised": 0.9342
+        },
+        {
+          "route_file": "val/val_p25_s2005.rou.xml",
+          "profile_id": 25,
+          "seed": 2005,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.1467131114327355,
+            "through": 0.741117812768974,
+            "right": 0.11216907579829047
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7206,
+          "phf_specified": 0.9249,
+          "phf_realised": 0.9072
+        },
+        {
+          "route_file": "val/val_p80_s7000.rou.xml",
+          "profile_id": 80,
+          "seed": 7000,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.19208800284957256,
+            "through": 0.6596270335950052,
+            "right": 0.14828496355542217
+          },
+          "axis_imbalance": 0.18,
+          "n_vehicles": 7036,
+          "phf_specified": 0.9276,
+          "phf_realised": 0.9022
+        },
+        {
+          "route_file": "val/val_p81_s7001.rou.xml",
+          "profile_id": 81,
+          "seed": 7001,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.17579694688266492,
+            "through": 0.6274644483840712,
+            "right": 0.1967386047332639
+          },
+          "axis_imbalance": 0.24,
+          "n_vehicles": 7038,
+          "phf_specified": 0.9162,
+          "phf_realised": 0.9249
+        },
+        {
+          "route_file": "val/val_p82_s7002.rou.xml",
+          "profile_id": 82,
+          "seed": 7002,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.1770257897709372,
+            "through": 0.6604200818913599,
+            "right": 0.16255412833770294
+          },
+          "axis_imbalance": 0.3,
+          "n_vehicles": 7158,
+          "phf_specified": 0.9158,
+          "phf_realised": 0.9339
+        },
+        {
+          "route_file": "val/val_p83_s7003.rou.xml",
+          "profile_id": 83,
+          "seed": 7003,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.12270118233861628,
+            "through": 0.7640471391237535,
+            "right": 0.11325167853763013
+          },
+          "axis_imbalance": 0.36,
+          "n_vehicles": 7124,
+          "phf_specified": 0.9141,
+          "phf_realised": 0.908
+        },
+        {
+          "route_file": "val/val_p84_s7004.rou.xml",
+          "profile_id": 84,
+          "seed": 7004,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.19851820202877415,
+            "through": 0.6894183370296567,
+            "right": 0.11206346094156922
+          },
+          "axis_imbalance": 0.06,
+          "n_vehicles": 6771,
+          "phf_specified": 0.9117,
+          "phf_realised": 0.9338
+        },
+        {
+          "route_file": "val/val_p85_s7005.rou.xml",
+          "profile_id": 85,
+          "seed": 7005,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.10555089264588541,
+            "through": 0.7814129095940615,
+            "right": 0.11303619776005303
+          },
+          "axis_imbalance": 0.12,
+          "n_vehicles": 6957,
+          "phf_specified": 0.9322,
+          "phf_realised": 0.9509
+        }
+      ]
+    },
+    "test": {
+      "vary_turning": true,
+      "n_runs": 14,
+      "phf_specified_mean": 0.9144,
+      "phf_specified_range": [
+        0.9057,
+        0.9216
+      ],
+      "saturated_mean_of_capacity": 0.8481,
+      "runs": [
+        {
+          "route_file": "test/test_p40_s3000.rou.xml",
+          "profile_id": 40,
+          "seed": 3000,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.1861136823529257,
+            "through": 0.6657439324537368,
+            "right": 0.14814238519333756
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7362,
+          "phf_specified": 0.9135,
+          "phf_realised": 0.9113
+        },
+        {
+          "route_file": "test/test_p41_s3001.rou.xml",
+          "profile_id": 41,
+          "seed": 3001,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.1898929888225897,
+            "through": 0.6233232127785848,
+            "right": 0.18678379839882547
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7169,
+          "phf_specified": 0.9169,
+          "phf_realised": 0.9472
+        },
+        {
+          "route_file": "test/test_p42_s3002.rou.xml",
+          "profile_id": 42,
+          "seed": 3002,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.1765636705796006,
+            "through": 0.6987368144375256,
+            "right": 0.12469951498287386
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7512,
+          "phf_specified": 0.9148,
+          "phf_realised": 0.9146
+        },
+        {
+          "route_file": "test/test_p43_s3003.rou.xml",
+          "profile_id": 43,
+          "seed": 3003,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.15768272273545036,
+            "through": 0.6993315172433665,
+            "right": 0.14298576002118316
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7212,
+          "phf_specified": 0.9157,
+          "phf_realised": 0.9402
+        },
+        {
+          "route_file": "test/test_p44_s3004.rou.xml",
+          "profile_id": 44,
+          "seed": 3004,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.15666120431037994,
+            "through": 0.7202671399678778,
+            "right": 0.12307165572174229
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 6976,
+          "phf_specified": 0.9088,
+          "phf_realised": 0.8929
+        },
+        {
+          "route_file": "test/test_p45_s3005.rou.xml",
+          "profile_id": 45,
+          "seed": 3005,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.11195263769256661,
+            "through": 0.7677308958573079,
+            "right": 0.12031646645012552
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 6984,
+          "phf_specified": 0.9057,
+          "phf_realised": 0.912
+        },
+        {
+          "route_file": "test/test_p46_s3006.rou.xml",
+          "profile_id": 46,
+          "seed": 3006,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.12208228622558936,
+            "through": 0.7551658399320937,
+            "right": 0.12275187384231694
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 6984,
+          "phf_specified": 0.9203,
+          "phf_realised": 0.9003
+        },
+        {
+          "route_file": "test/test_p47_s3007.rou.xml",
+          "profile_id": 47,
+          "seed": 3007,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.14060223850891063,
+            "through": 0.7490634386118037,
+            "right": 0.1103343228792857
+          },
+          "axis_imbalance": 0.0,
+          "n_vehicles": 7044,
+          "phf_specified": 0.91,
+          "phf_realised": 0.8614
+        },
+        {
+          "route_file": "test/test_p90_s8000.rou.xml",
+          "profile_id": 90,
+          "seed": 8000,
+          "dominant": "SB",
+          "turning": {
+            "left": 0.10529416719716446,
+            "through": 0.7486967237423355,
+            "right": 0.1460091090605
+          },
+          "axis_imbalance": 0.06,
+          "n_vehicles": 7175,
+          "phf_specified": 0.9188,
+          "phf_realised": 0.8477
+        },
+        {
+          "route_file": "test/test_p91_s8001.rou.xml",
+          "profile_id": 91,
+          "seed": 8001,
+          "dominant": "WB",
+          "turning": {
+            "left": 0.14422376301054574,
+            "through": 0.7557378311477944,
+            "right": 0.10003840584165988
+          },
+          "axis_imbalance": 0.12,
+          "n_vehicles": 6986,
+          "phf_specified": 0.9167,
+          "phf_realised": 0.9022
+        },
+        {
+          "route_file": "test/test_p92_s8002.rou.xml",
+          "profile_id": 92,
+          "seed": 8002,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.1616007204149207,
+            "through": 0.643331714297025,
+            "right": 0.1950675652880544
+          },
+          "axis_imbalance": 0.18,
+          "n_vehicles": 6892,
+          "phf_specified": 0.9087,
+          "phf_realised": 0.8638
+        },
+        {
+          "route_file": "test/test_p93_s8003.rou.xml",
+          "profile_id": 93,
+          "seed": 8003,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.10551998943906175,
+            "through": 0.784628429424287,
+            "right": 0.1098515811366513
+          },
+          "axis_imbalance": 0.24,
+          "n_vehicles": 7337,
+          "phf_specified": 0.9166,
+          "phf_realised": 0.9009
+        },
+        {
+          "route_file": "test/test_p94_s8004.rou.xml",
+          "profile_id": 94,
+          "seed": 8004,
+          "dominant": "EB",
+          "turning": {
+            "left": 0.12124254106201213,
+            "through": 0.7696608835067089,
+            "right": 0.10909657543127892
+          },
+          "axis_imbalance": 0.3,
+          "n_vehicles": 7150,
+          "phf_specified": 0.9216,
+          "phf_realised": 0.9393
+        },
+        {
+          "route_file": "test/test_p95_s8005.rou.xml",
+          "profile_id": 95,
+          "seed": 8005,
+          "dominant": "NB",
+          "turning": {
+            "left": 0.17837612949384035,
+            "through": 0.695787549398307,
+            "right": 0.1258363211078526
+          },
+          "axis_imbalance": 0.36,
+          "n_vehicles": 7134,
+          "phf_specified": 0.914,
+          "phf_realised": 0.8921
+        }
+      ]
+    }
+  },
+  "totals": {
+    "runs": 50,
+    "vehicles": 355048,
+    "movement_records": 40800
+  }
+}

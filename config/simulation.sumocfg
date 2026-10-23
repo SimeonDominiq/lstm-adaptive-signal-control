@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <input>
+        <net-file value="../network/intersection.net.xml"/>
+        <route-files value="../demand/routes.rou.xml"/>
+        <additional-files value="../detectors/detectors.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="14400"/>          <!-- 4 hours -->
+        <step-length value="1.0"/>
+    </time>
+    <processing>
+        <time-to-teleport value="-1"/>  <!-- never teleport: queues must be real -->
+        <collision.action value="warn"/>
+    </processing>
+    <output>
+        <tripinfo-output value="../results/tripinfo.xml"/>
+        <summary-output value="../results/summary.xml"/>
+        <queue-output value="../results/queue.xml"/>
+        <statistic-output value="../results/statistics.xml"/>
+    </output>
+    <report>
+        <no-step-log value="true"/>
+        <duration-log.statistics value="true"/>
+    </report>
+</configuration>

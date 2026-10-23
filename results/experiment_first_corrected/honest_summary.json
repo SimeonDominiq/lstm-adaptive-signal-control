@@ -1,0 +1,26 @@
+{
+  "A vs B": {
+    "low": "no meaningful difference",
+    "moderate": "B better",
+    "peak": "A better",
+    "oversaturated": "A better",
+    "surge": "no meaningful difference",
+    "imbalanced": "B better"
+  },
+  "B vs C": {
+    "low": "no meaningful difference",
+    "moderate": "no meaningful difference",
+    "peak": "C better",
+    "oversaturated": "C better",
+    "surge": "no meaningful difference",
+    "imbalanced": "B better"
+  },
+  "A vs C": {
+    "low": "no meaningful difference",
+    "moderate": "no meaningful difference",
+    "peak": "C better",
+    "oversaturated": "no meaningful difference",
+    "surge": "no meaningful difference",
+    "imbalanced": "C better"
+  }
+}

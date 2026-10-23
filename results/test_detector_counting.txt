@@ -1,0 +1,24 @@
+DETECTOR COUNTING - DIRECT TEST
+==============================================================
+  [PASS] one vehicle dwelling for five steps is counted once
+         expected 1, got 1
+  [PASS] a vehicle straddling a cycle boundary is counted once in total
+         expected 1, got 1
+  [PASS] and it is attributed to the cycle in which it arrived
+         expected [1, 0], got [1, 0]
+  [PASS] the superseded method counted the same vehicle twice
+         expected 2, got 2
+  [PASS] two vehicles in succession are counted twice
+         expected 2, got 2
+  [PASS] a departure and an arrival in the same step are both counted
+         expected 2, got 2
+  [PASS] two vehicles overlapping on the loop are counted twice
+         expected 2, got 2
+  [PASS] a queue standing on the loop across several cycles is counted once per vehicle
+         expected 2, got 2
+  [PASS] the superseded method counted it again in every cycle
+         expected 4, got 4
+  [PASS] an empty loop counts nothing
+         expected 0, got 0
+==============================================================
+10 passed, 0 failed

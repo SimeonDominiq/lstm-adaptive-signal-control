@@ -1,0 +1,23 @@
+{
+  "train": {
+    "ratio": 0.9506,
+    "correlation": 0.8103,
+    "records": 19584,
+    "csv": "data_broad/train.csv",
+    "npz": "data_broad/train.npz"
+  },
+  "val": {
+    "ratio": 0.9434,
+    "correlation": 0.812,
+    "records": 9792,
+    "csv": "data_broad/val.csv",
+    "npz": "data_broad/val.npz"
+  },
+  "test": {
+    "ratio": 0.9559,
+    "correlation": 0.833,
+    "records": 11424,
+    "csv": "data_broad/test.csv",
+    "npz": "data_broad/test.npz"
+  }
+}

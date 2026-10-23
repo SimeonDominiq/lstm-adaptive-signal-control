@@ -1,0 +1,171 @@
+=== tree ===
+demand:
+__pycache__
+build_partitions.py
+build_scenarios.py
+generate_demand.py
+partitions
+partitions_broad
+routes.rou.xml
+scenarios
+
+demand/__pycache__:
+build_partitions.cpython-312.pyc
+build_scenarios.cpython-312.pyc
+generate_demand.cpython-312.pyc
+
+demand/partitions:
+manifest.json
+test
+train
+val
+
+demand/partitions/test:
+test_p40_s3000.rou.xml
+test_p41_s3001.rou.xml
+test_p42_s3002.rou.xml
+test_p43_s3003.rou.xml
+test_p44_s3004.rou.xml
+test_p45_s3005.rou.xml
+test_p46_s3006.rou.xml
+test_p47_s3007.rou.xml
+
+demand/partitions/train:
+train_p1_s1000.rou.xml
+train_p10_s1009.rou.xml
+train_p11_s1010.rou.xml
+train_p12_s1011.rou.xml
+train_p2_s1001.rou.xml
+train_p3_s1002.rou.xml
+train_p4_s1003.rou.xml
+train_p5_s1004.rou.xml
+train_p6_s1005.rou.xml
+train_p7_s1006.rou.xml
+train_p8_s1007.rou.xml
+train_p9_s1008.rou.xml
+
+demand/partitions/val:
+val_p20_s2000.rou.xml
+val_p21_s2001.rou.xml
+val_p22_s2002.rou.xml
+val_p23_s2003.rou.xml
+val_p24_s2004.rou.xml
+val_p25_s2005.rou.xml
+
+demand/partitions_broad:
+manifest.json
+test
+train
+val
+
+demand/partitions_broad/test:
+test_p40_s3000.rou.xml
+test_p41_s3001.rou.xml
+test_p42_s3002.rou.xml
+test_p43_s3003.rou.xml
+test_p44_s3004.rou.xml
+test_p45_s3005.rou.xml
+test_p46_s3006.rou.xml
+test_p47_s3007.rou.xml
+test_p90_s8000.rou.xml
+test_p91_s8001.rou.xml
+test_p92_s8002.rou.xml
+test_p93_s8003.rou.xml
+test_p94_s8004.rou.xml
+test_p95_s8005.rou.xml
+
+demand/partitions_broad/train:
+train_p1_s1000.rou.xml
+train_p10_s1009.rou.xml
+train_p11_s1010.rou.xml
+train_p12_s1011.rou.xml
+=== results ===
+models:
+total 1304
+drwxr-xr-x@  4 opeyemiadeyeye  staff     128 Aug 30 19:52 .
+drwxr-xr-x@ 20 opeyemiadeyeye  staff     640 Sep 22 04:55 ..
+-rw-r--r--@  1 opeyemiadeyeye  staff  661351 Aug 28 05:38 lstm_model.keras
+-rw-r--r--@  1 opeyemiadeyeye  staff    2450 Aug 28 05:38 model_report.json
+
+models_broad:
+total 1304
+drwxr-xr-x@  4 opeyemiadeyeye  staff     128 Aug 30 20:00 .
+drwxr-xr-x@ 20 opeyemiadeyeye  staff     640 Sep 22 04:55 ..
+-rw-r--r--@  1 opeyemiadeyeye  staff  661351 Aug 30 20:00 lstm_model.keras
+-rw-r--r--@  1 opeyemiadeyeye  staff    2797 Aug 30 20:00 model_report.json
+
+results:
+total 59160
+drwxr-xr-x@ 50 opeyemiadeyeye  staff     1600 Sep 18 09:44 .
+drwxr-xr-x@ 20 opeyemiadeyeye  staff      640 Sep 22 04:55 ..
+-rw-r--r--@  1 opeyemiadeyeye  staff    36243 Aug 27 22:14 A_fixed_cycles.json
+-rw-r--r--@  1 opeyemiadeyeye  staff      352 Aug 27 22:14 A_fixed_run.json
+-rw-r--r--@  1 opeyemiadeyeye  staff  2930543 Aug 27 22:14 A_fixed_tripinfo.xml
+-rw-r--r--@  1 opeyemiadeyeye  staff    36210 Aug 28 05:44 A_train_cycles.json
+-rw-r--r--@  1 opeyemiadeyeye  staff      353 Aug 28 05:44 A_train_run.json
+-rw-r--r--@  1 opeyemiadeyeye  staff  2793090 Aug 28 05:44 A_train_tripinfo.xml
+-rw-r--r--@  1 opeyemiadeyeye  staff    52851 Aug 27 22:15 B_reactive_cycles.json
+-rw-r--r--@  1 opeyemiadeyeye  staff      376 Aug 27 22:15 B_reactive_run.json
+-rw-r--r--@  1 opeyemiadeyeye  staff  2824291 Aug 27 22:15 B_reactive_tripinfo.xml
+-rw-r--r--@  1 opeyemiadeyeye  staff    52815 Aug 28 05:44 B_train_cycles.json
+-rw-r--r--@  1 opeyemiadeyeye  staff      372 Aug 28 05:44 B_train_run.json
+-rw-r--r--@  1 opeyemiadeyeye  staff  2795774 Aug 28 05:44 B_train_tripinfo.xml
+-rw-r--r--@  1 opeyemiadeyeye  staff    54422 Aug 28 05:39 C_bias_cycles.json
+-rw-r--r--@  1 opeyemiadeyeye  staff      373 Aug 28 05:39 C_bias_run.json
+-rw-r--r--@  1 opeyemiadeyeye  staff  2935772 Aug 28 05:39 C_bias_tripinfo.xml
+-rw-r--r--@  1 opeyemiadeyeye  staff    54693 Aug 27 22:52 C_gain1.3_cycles.json
+-rw-r--r--@  1 opeyemiadeyeye  staff      379 Aug 27 22:52 C_gain1.3_run.json
+-rw-r--r--@  1 opeyemiadeyeye  staff  2944033 Aug 27 22:52 C_gain1.3_tripinfo.xml
+-rw-r--r--@  1 opeyemiadeyeye  staff    54677 Aug 28 05:27 C_gain1.6_cycles.json
+-rw-r--r--@  1 opeyemiadeyeye  staff      378 Aug 28 05:27 C_gain1.6_run.json
+-rw-r--r--@  1 opeyemiadeyeye  staff  2946844 Aug 28 05:27 C_gain1.6_tripinfo.xml
+-rw-r--r--@  1 opeyemiadeyeye  staff    53935 Aug 27 22:15 C_predictive_cycles.json
+-rw-r--r--@  1 opeyemiadeyeye  staff      383 Aug 27 22:15 C_predictive_run.json
+-rw-r--r--@  1 opeyemiadeyeye  staff  2935741 Aug 27 22:15 C_predictive_tripinfo.xml
+-rw-r--r--@  1 opeyemiadeyeye  staff    53873 Aug 28 05:44 C_train_cycles.json
+-rw-r--r--@  1 opeyemiadeyeye  staff      376 Aug 28 05:44 C_train_run.json
+-rw-r--r--@  1 opeyemiadeyeye  staff  2857111 Aug 28 05:44 C_train_tripinfo.xml
+-rw-r--r--@  1 opeyemiadeyeye  staff     2520 Sep 17 16:44 conservation_checks.json
+-rw-r--r--@  1 opeyemiadeyeye  staff    53847 Sep  1 01:55 demo_predictive_cycles.json
+-rw-r--r--@  1 opeyemiadeyeye  staff      398 Sep  1 01:55 demo_predictive_run.json
+-rw-r--r--@  1 opeyemiadeyeye  staff  3184453 Sep  1 01:55 demo_predictive_tripinfo.xml
+-rw-r--r--@  1 opeyemiadeyeye  staff    23050 Sep 16 12:40 detector_divergence.json
+drwxr-xr-x@  5 opeyemiadeyeye  staff      160 Aug 30 19:06 experiment
+drwxr-xr-x@  5 opeyemiadeyeye  staff      160 Aug 30 20:14 experiment_broad
+drwxr-xr-x@  5 opeyemiadeyeye  staff      160 Sep 17 16:58 experiment_corrected
+drwxr-xr-x@  5 opeyemiadeyeye  staff      160 Sep 18 09:56 experiment_first_corrected
+-rw-r--r--@  1 opeyemiadeyeye  staff   100348 Aug 31 04:43 fixedtime_current_fig1_demand_and_throughput.png
+-rw-r--r--@  1 opeyemiadeyeye  staff    87943 Aug 31 04:43 fixedtime_current_fig2_delay_over_time.png
+-rw-r--r--@  1 opeyemiadeyeye  staff    60239 Aug 31 04:43 fixedtime_current_fig3_metric_distributions.png
+-rw-r--r--@  1 opeyemiadeyeye  staff      373 Aug 31 04:43 fixedtime_current_summary.json
+-rw-r--r--@  1 opeyemiadeyeye  staff     1262 Aug 31 05:38 queue.xml
+-rw-r--r--@  1 opeyemiadeyeye  staff     2178 Aug 31 05:38 statistics.xml
+-rw-r--r--@  1 opeyemiadeyeye  staff     1254 Aug 31 05:38 summary.xml
+-rw-r--r--@  1 opeyemiadeyeye  staff     1259 Aug 31 05:38 tripinfo.xml
+-rw-r--r--@  1 opeyemiadeyeye  staff    99508 Aug 27 13:20 webster_fig1_demand_and_throughput.png
+-rw-r--r--@  1 opeyemiadeyeye  staff    87215 Aug 27 13:20 webster_fig2_delay_over_time.png
+-rw-r--r--@  1 opeyemiadeyeye  staff    59770 Aug 27 13:20 webster_fig3_metric_distributions.png
+-rw-r--r--@  1 opeyemiadeyeye  staff      363 Aug 27 13:20 webster_summary.json
+=== allocation ===
+scripts/run_controller.py.prepatch:64:def allocate_green(demand_by_movement, phase_movements, green_available,
+scripts/run_controller.py.prepatch:74:    d = np.array([max(demand_by_movement[m] for m in movs)
+scripts/run_controller.py.prepatch:75:                  for movs in phase_movements], dtype=float)
+scripts/run_controller.py.prepatch:198:    phase_movements = mapping["phase_movements"]
+scripts/run_controller.py.prepatch:270:                greens = allocate_green(demand, phase_movements,
+scripts/make_tls.py:250:        phase_movements=PHASE_MOVEMENTS,
+Binary file scripts/__pycache__/make_tls.cpython-312.pyc matches
+scripts/run_controller.py:64:def allocate_green(demand_by_movement, phase_movements, green_available,
+scripts/run_controller.py:74:    d = np.array([max(demand_by_movement[m] for m in movs)
+scripts/run_controller.py:75:                  for movs in phase_movements], dtype=float)
+=== build_scenarios usage ===
+usage: build_scenarios.py [-h] [--seeds SEEDS] [--seed-base SEED_BASE]
+                          [--vary-turning] [--outdir OUTDIR]
+
+options:
+  -h, --help            show this help message and exit
+  --seeds SEEDS         paired seeds per scenario (Chapter 3 requires at least
+                        20)
+  --seed-base SEED_BASE
+  --vary-turning        vary turning ratios across seeds, as in the held-out
+                        data
+  --outdir OUTDIR

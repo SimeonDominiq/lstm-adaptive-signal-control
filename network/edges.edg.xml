@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2 lanes per approach: lane 0 = shared through/right, lane 1 = dedicated left.
+     Free-flow 50 km/h = 13.89 m/s. -->
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <edge id="N2C" from="N" to="C" numLanes="2" speed="13.89" priority="1"/>
+    <edge id="S2C" from="S" to="C" numLanes="2" speed="13.89" priority="1"/>
+    <edge id="E2C" from="E" to="C" numLanes="2" speed="13.89" priority="1"/>
+    <edge id="W2C" from="W" to="C" numLanes="2" speed="13.89" priority="1"/>
+    <edge id="C2N" from="C" to="N" numLanes="2" speed="13.89" priority="1"/>
+    <edge id="C2S" from="C" to="S" numLanes="2" speed="13.89" priority="1"/>
+    <edge id="C2E" from="C" to="E" numLanes="2" speed="13.89" priority="1"/>
+    <edge id="C2W" from="C" to="W" numLanes="2" speed="13.89" priority="1"/>
+</edges>
